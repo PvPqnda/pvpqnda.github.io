@@ -1,13 +1,13 @@
-title:              Hielke Maps
-email:              hielkemaps@gmail.com
-description:        Official Minecraft Partner
+title:              PvPqnda
+email:              pvpqnda@gmail.com
+description:        Map Maker
 baseurl:            ""
 url:                ""
-author:             "Hielke Maps"
+author:             "PvPqnda"
 form_id:            "407887f9-2e9e-4d6f-b246-f39d579a4a5d"
 
 # Social Profiles
-twitter_username:   HielkeMaps
+twitter_username:   PvPqnda
 
 # Build settings
 markdown:           kramdown
