@@ -8,7 +8,7 @@
     color: $white;
     &:focus,
     &:hover {
-      color: $blue;
+      color: $red;
     }
   }
   .navbar-toggler {
@@ -20,8 +20,8 @@
     border-color: $white;
     &:focus,
     &:hover {
-      color: $blue;
-      border-color: $blue;
+      color: $red;
+      border-color: $red;
     }
   }
   .navbar-nav {
@@ -34,7 +34,7 @@
         color: $white;
         &:focus,
         &:hover {
-          color: $blue;
+          color: $red;
         }
       }
     }

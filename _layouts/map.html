@@ -11,8 +11,6 @@ layout: default
         <div class="post-heading">
           <h1>{{ page.title }}</h1>
           <span class="meta">{{ page.date | date: '%B %d, %Y' }}
-            {% if page.bedrock %}<span class="badge badge-secondary">Bedrock</span>{% endif %}
-            {% if page.java %}<span class="badge badge-secondary">Java</span>{% endif %}
           </span>
         </div>
       </div>
@@ -29,41 +27,6 @@ layout: default
         {% endif %}
         {{ content }}
 
-        <!-- Rank times -->
-        {% if page.isranked %}
-        <br>
-        <h4>Rank times</h4>
-        <table class="table table-striped">
-          <thead class="thead-dark">
-            <tr>
-              <th scope="col">Seconds</th>
-              <th scope="col">Rank</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row"><span id="srank" value="{{ page.srank }}"></span></th>
-              <td class="rank_letter" id="S">S</td>
-            </tr>
-            <tr>
-              <th scope="row"><span id="arank" value="{{ page.arank }}"></span></th>
-              <td class="rank_letter" id="A">A</td>
-            </tr>
-            <tr>
-              <th scope="row"><span id="brank" value="{{ page.brank }}"></span></th>
-              <td class="rank_letter" id="B">B</td>
-            </tr>
-            <tr>
-              <th scope="row"><span id="crank" value="{{ page.crank }}"></span></th>
-              <td class="rank_letter" id="C">C</td>
-            </tr>
-            <tr>
-              <th scope="row"><span id="drank"></span></th>
-              <td class="rank_letter" id="D">D</td>
-            </tr>
-          </tbody>
-        </table>
-        {% endif %}
         <hr>
         <div class="text-center">
           {% if page.bedrock %}
@@ -79,33 +42,6 @@ layout: default
         </div>
         <hr>
       </div>
-      {% if page.speedrunnable %}
-      <div class="col-lg-1"></div>
-      <div class="col-lg-4 col-md-10 mx-auto speedrunpanel" style="visibility: hidden;">
-        <h2>Fastest Time</h2>
-        <p id="record"></p>
-        <span id="record_hms"></span>
-        <a class="btn btn-sm btn-outline-danger" id="record_link"
-          style="display:none; margin-top: -20px; padding: .25rem .5rem;">Submit one yourself!</a><br>
-        <div id="author_info">
-          <span id="record_author"></span><a target="_blank" id="record_author_name"></a>
-        </div>
-        <br>
-        <div id="compete">
-          <span>Want to compete?</span><br>
-          <a class="btn btn-sm btn-secondary text-center" id="record_link_2" style="padding: .25rem .5rem;">Submit
-            a run</a>
-          <br>
-          <br>
-        </div>
-        <div id="speedrun_discord">
-          <span>Or join our speedrun server!</span>
-          <br>
-          <a href="https://discord.gg/6RzKxbH" target="_blank" class="discordLink"><i
-              class="fab fa-discord fa-3x mt-2"></i></a>
-        </div>
-      </div>
-      {% endif %}
     </div>
   </div>
   <br>
