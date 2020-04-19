@@ -11,12 +11,9 @@ version: 1.0.0
 Created by: PvPqnda
 -
 
-Map Description:
+**Map Description:**
 
-All players will be on their own to gather materials, and prepare for battle.
-PvP will be off for the first 20 minutes, but after that, players are able to fight.
-Every 20 minutes, the border will shrink by 50 blocks, after starting at 250 blocks.
-But be careful, the border can kill you!
+All players will be on their own to gather materials, and prepare for battle.<br>PvP will be off for the first 20 minutes, but after that, players are able to fight.<br>Every 20 minutes, the border will shrink by 50 blocks, after starting at 250 blocks.<br>But be careful, the border can kill you!
 
 - 2+ players!
 - 4 different custom game settings!
