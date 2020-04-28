@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Maps
+title: Datapacks
 background: '/img/bg-map.jpg'
 ---
 <div class="container-fluid">
   <div class="card-deck" style="justify-content: center;">
-    {% for post in paginator.posts %}
-    {% if post.layout == 'map' %}
+    {% for post in site.posts %}
+    {% if post.layout == 'datapack' %}
     <div class="card mapcard" onclick="location.href='{{ post.url | prepend: site.baseurl | replace: '//', '/' }}';">
       <img class="card-img-top" src="{{site.baseurl}}/img/{{post.permalink}}/thumbnail.jpg" alt="Card image cap">
       <div class="card-body">
