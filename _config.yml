@@ -5,6 +5,7 @@ baseurl:            ""
 url:                ""
 author:             "PvPqnda"
 form_id:            "9a41d72b-a782-4dc4-8148-1a996e1727b8"
+google_analytics:   "UA-164850315-1"
 
 # Social Profiles
 twitter_username:   PvPqnda
