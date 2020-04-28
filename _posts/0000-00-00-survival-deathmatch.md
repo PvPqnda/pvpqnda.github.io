@@ -1,7 +1,7 @@
 ---
 layout: map
 title: "Survival Deathmatch"
-date: 2020-02-22
+date: 2019-04-21
 permalink: /maps/survival-deathmatch
 short-description: "Survival Deathmatch is a map where you use your survival skills, to win this PvP minigame!"
 java: "/downloads/Survival Deathmatch v1.0.0.zip"
