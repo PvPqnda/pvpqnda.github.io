@@ -8,13 +8,15 @@ java: "/downloads/Underwater Mob Arena v1.0.1.zip"
 java-version: "1.15.2"
 version: 1.0.1
 ---
-
 Created by: PvPqnda & asluup
 -
+*For Minecraft 1.15+*
 
 **Map Description:**
 
-Underwater Mob Arena is a single-player or co-op PvE minigame featuring 20 waves of mobs that get increasingly more difficult over time.<br>You must defeat all enemies in all 20 waves to win.<br>In between waves, you can use coins, which are obtained by killing enemies, to purchase gear in the shop!
+Underwater Mob Arena is a single-player or co-op PvE minigame featuring 20 waves of mobs that get increasingly more difficult over time.<br>
+You must defeat all enemies in all 20 waves to win.<br>
+In between waves, you can use coins, which are obtained by killing enemies, to purchase gear in the shop!
 
 - 1+ players!
 - Increasing difficulty!

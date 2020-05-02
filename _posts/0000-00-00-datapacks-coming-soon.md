@@ -1,12 +1,12 @@
 ---
 layout: datapack
-title: "Many Datapacks Coming Soon!"
+title: "More Datapacks Coming Soon!"
 permalink: /datapacks/coming-soon
-date: 0000-04-20
-short-description: "Many datapacks are coming soon to my website!"
-trailer: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-version: 0.0.0
-download: "https://www.psdstamps.com/wp-content/uploads/2019/11/grunge-coming-soon-label-png-768x512.png"
+date: 0000-01-01
+short-description: "Many more datapacks are coming soon!"
+version: 0
+download: "/coming-soon.png"
 ---
 
-Many datapacks are coming soon to my website
+Many more datapacks I've made are coming soon to my website!<br>
+Click <a href="/datapacks" style="color: #dc3545;text-decoration: underline;">here<a> to view my datapacks that are already posted!
