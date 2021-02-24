@@ -21,14 +21,14 @@ For example, the TNT Arrow spawns in 1 TNT when the arrow lands. And the Fire Ar
 You may use the custom arrows to eliminate the opposing team.<br>
 Once all players on their team is dead, the other team wins. However, you are unable to build from island to island.
 
-**Marc from Mojang:**
-
-"Resource gathering and careful exploration in the face of adversity are a theme as old as humanity itself, and the two team/two island setup speaks to the duality within us all."
-
 - 2+ players!
 - Cosmetic features!
 - 6 unique maps to play on!
 - Many different arrows with special abilities!
 - Custom resource pack!
+
+**Marc from Mojang:**
+
+"Resource gathering and careful exploration in the face of adversity are a theme as old as humanity itself, and the two team/two island setup speaks to the duality within us all."
 
 *Also available on Minecraft Realms!*
