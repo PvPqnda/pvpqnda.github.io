@@ -2,7 +2,7 @@
 layout: datapack
 title: "Sleeping Zs"
 permalink: /datapacks/sleeping-zs
-date: 2021-02-26
+date: 2021-03-01
 short-description: "Wanna make Minecraft a little more cartoony? Add Zs to sleeping players!"
 trailer: "https://youtu.be/2ZUksaQUHWA"
 version: 1.0.0
