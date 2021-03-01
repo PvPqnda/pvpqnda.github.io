@@ -10,7 +10,7 @@ version: 1.0.1
 ---
 Created by: PvPqnda & asluup
 -
-*For Minecraft 1.15+*
+*For Minecraft 1.15*
 
 **Map Description:**
 

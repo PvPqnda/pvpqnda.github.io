@@ -2,7 +2,7 @@
 layout: datapack
 title: "DeathPoint"
 permalink: /datapacks/deathpoint
-date: 2019-01-11
+date: 2020-05-01
 short-description: "Never forget where you die, so you never lose your items again!"
 version: 1.0.0
 download: "/downloads/DeathPoint.zip"

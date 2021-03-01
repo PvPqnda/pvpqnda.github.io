@@ -11,7 +11,7 @@ version: 1.1.0
 ---
 Created by: PvPqnda & Hielke
 -
-*For Minecraft 1.15+*
+*For Minecraft 1.15*
 
 **Map Description:**
 
