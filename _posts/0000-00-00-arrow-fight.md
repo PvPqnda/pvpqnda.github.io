@@ -4,14 +4,14 @@ title: "Arrow Fight"
 date: 2020-02-07
 permalink: /maps/arrow-fight
 short-description: "Arrow Fight is a PvP minigame with custom unique arrows with special abilities that you use to shoot at the enemy team to win!"
-java: "/downloads/Arrow Fight v1.1.0.zip"
-java-rp: "/downloads/Arrow Fight RP v1.0.0.zip"
-java-version: "1.15.2"
-version: 1.1.0
+java: "/downloads/Arrow Fight WORLD v1.1.1 (Unzip).zip"
+java-rp: "/downloads/Arrow Fight RESOURCE PACK v1.1.1 (Unzip).zip"
+java-version: "1.16.5"
+version: 1.1.1
 ---
 Created by: PvPqnda & Hielke
 -
-*For Minecraft 1.15*
+*For Minecraft 1.16.5*
 
 **Map Description:**
 
@@ -32,3 +32,16 @@ Once all players on their team is dead, the other team wins. However, you are un
 "Resource gathering and careful exploration in the face of adversity are a theme as old as humanity itself, and the two team/two island setup speaks to the duality within us all."
 
 *Also available on Minecraft Realms!*
+<hr>
+**Changelog:**
+
+**v1.1.1** - *March 6th, 2021*
+
+- Updated to Minecraft 1.16.5
+- When a villager shop is shot with a lightning arrow, it now reverts back to its tradable villager form after 10 seconds
+- The arrow shop prices have been tweaked to speed up gameplay
+- Ores now drop multiple drops to speed up gameplay
+- Gravel now has a 100% chance of dropping flint to speed up gameplay (previously 50%)
+- The villager shop now slowly falls when the blocks below it are destroyed, rather than floating in the air
+- Added capes respectively to player models in spawn lobby
+- Removed the easter egg that gives players a single extra token in the winners' room
