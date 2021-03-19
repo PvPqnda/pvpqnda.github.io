@@ -18,3 +18,10 @@ Created by: PvPqnda
 - Typing "/trigger DeathPoint" will send you a similar message stating where you were at your last death point.
 
 *Survival & Multiplayer friendly*
+<hr>
+**Changelog:**
+
+**v1.0.1** - *March 19, 2021*
+
+- Added support for Minecraft 1.16 and above
+- Edited a chat message character
