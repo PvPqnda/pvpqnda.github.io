@@ -10,7 +10,7 @@ download: "/downloads/Landmines.zip"
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.15+*
+*For Minecraft 1.16+*
 
 **Datapack Features:**
 
