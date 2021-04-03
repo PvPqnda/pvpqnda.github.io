@@ -1,7 +1,7 @@
 ---
 layout: map
 title: "Arrow Fight"
-date: 2020-02-07
+date: 2021-03-06
 permalink: /maps/arrow-fight
 short-description: "Arrow Fight is a PvP minigame with custom unique arrows with special abilities that you use to shoot at the enemy team to win!"
 java: "/downloads/Arrow Fight WORLD v1.1.1 (Unzip).zip"
