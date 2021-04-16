@@ -6,7 +6,7 @@ date: 2021-03-01
 short-description: "Want to make Minecraft a little more cartoony? Add Zs to sleeping players!"
 trailer: "https://youtu.be/2ZUksaQUHWA"
 version: 1.0.0
-download: "/downloads/Sleeping Zs.zip"
+download: "/downloads/datapacks/Sleeping Zs.zip"
 ---
 Created by: PvPqnda
 -

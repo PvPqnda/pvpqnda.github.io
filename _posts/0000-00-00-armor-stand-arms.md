@@ -5,7 +5,7 @@ permalink: /datapacks/armor-stand-arms
 date: 2020-05-05
 short-description: "Your armor stands can't hold any items, so give 'em a hand! Or, two of them?"
 version: 1.0.1
-download: "/downloads/Armor Stand Arms.zip"
+download: "/downloads/datapacks/Armor Stand Arms.zip"
 ---
 Created by: PvPqnda
 -

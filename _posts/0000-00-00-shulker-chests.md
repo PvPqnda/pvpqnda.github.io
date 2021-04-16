@@ -6,7 +6,7 @@ date: 2021-03-26
 short-description: "Want to easily move your chests full of items from one location to another? Now you can."
 trailer: "https://youtu.be/74d1YoUixpc"
 version: 1.0.0
-download: "/downloads/Shulker Chests.zip"
+download: "/downloads/datapacks/Shulker Chests.zip"
 ---
 Created by: PvPqnda
 -
