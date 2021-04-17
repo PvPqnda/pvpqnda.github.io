@@ -10,12 +10,11 @@ download: "/downloads/datapacks/Throwable Swords.zip"
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.15+*
+*For Minecraft 1.15 - 1.16*
 
 **Datapack Features:**
 
-- This datapack allows any sword to be thrown at mobs or blocks! The sword will drop back as an item once it hits something!
-*Supports item NBT data!*
+- This datapack allows any sword to be thrown at mobs or blocks! The sword will drop back as an item once it hits something! *Supports item NBT data!*
 
 - To throw a sword, simply drop it while holding it!
 
