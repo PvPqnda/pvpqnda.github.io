@@ -35,4 +35,6 @@ This is to prevent anyone from attempting to defy risky situations.
 
 - Admins may list ALL camera IDs by typing: "/function securitycameras:list/all"
 
+- Admins may list all OTHERS camera IDs by typing: "/function securitycameras:list/others"
+
 *Survival & Multiplayer friendly*
