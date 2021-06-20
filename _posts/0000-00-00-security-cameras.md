@@ -18,6 +18,8 @@ Inspired by ~ FloBubz ~
 
 - Adds security cameras into the game!
 
+- Craft a security camera by dropping 1 iron ingot, 1 glass pane, and 1 redstone torch!
+
 - Placing a security camera on the underside of a block will face it towards you and generate a number ID linked to the camera which is what you use to view the camera!
 
 - Anyone is able to enter any camera from any location and dimension as long as they know the correct ID, and exiting will return the player back to their previous position and gamemode!<br>
