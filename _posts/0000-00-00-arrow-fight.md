@@ -1,17 +1,17 @@
 ---
 layout: map
 title: "Arrow Fight"
-date: 2021-03-06
+date: 2021-06-21
 permalink: /maps/arrow-fight
 short-description: "Arrow Fight is a PvP minigame with custom unique arrows with special abilities that you use to shoot at the enemy team to win!"
-java: "/downloads/maps/Arrow Fight WORLD v1.1.1 (Unzip).zip"
-java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.1.1 (Unzip).zip"
-java-version: "1.16.5"
-version: 1.1.1
+java: "/downloads/maps/Arrow Fight WORLD v1.1.2 (Unzip).zip"
+java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.1.2 (Unzip).zip"
+java-version: "1.17"
+version: 1.1.2
 ---
 Created by: PvPqnda & Hielke
 -
-*For Minecraft 1.16.5*
+*For Minecraft 1.17*
 
 **Map Description:**
 
@@ -34,6 +34,14 @@ Once all players on their team is dead, the other team wins. However, you are un
 *Also available on Minecraft Realms!*
 <hr>
 **Changelog:**
+
+**v1.1.2** - *June 21st, 2021*
+
+- Updated to Minecraft 1.17
+- Nether portals will now break upon entering
+- Added an anti-escapee function that kills players who escape the play area
+- Boats and minecarts will now despawn when out of the play area
+- Block Eater Arrows will now also eat falling sand entities in range
 
 **v1.1.1** - *March 6th, 2021*
 
