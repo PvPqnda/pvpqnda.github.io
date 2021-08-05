@@ -31,7 +31,7 @@ This is to prevent anyone from attempting to defy risky situations.
 
 - To break a camera, simply destroy the block it is hanging from.
 
-- To enter a camera, type: "/trigger Camera set <ID>"
+- To enter a camera, type: "/trigger Camera set \<ID>"
 
 - To list the IDs of all existing cameras you've placed, type: "/trigger Cameras"
 
