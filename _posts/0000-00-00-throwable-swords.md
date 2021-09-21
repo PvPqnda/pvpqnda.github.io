@@ -2,15 +2,15 @@
 layout: datapack
 title: "Throwable Swords"
 permalink: /datapacks/throwable-swords
-date: 2021-06-13
+date: 2021-09-21
 short-description: "Want to be able to throw your swords like tridents? Now you can."
 trailer: "https://youtu.be/UobKdnHP96Q"
-version: 1.1.0
+version: 1.1.1
 download: "/downloads/datapacks/Throwable Swords.zip"
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.15+*
+*For Minecraft 1.17*
 
 **Datapack Features:**
 
@@ -34,6 +34,12 @@ Created by: PvPqnda
 *Survival & Multiplayer friendly*
 <hr>
 **Changelog:**
+
+**v1.1.1** - *September 21, 2021*
+
+- No longer supports previous versions; Minecraft 1.17 only
+- Fixed "Durability" setting from being unable to be set to False
+- Performance improvements
 
 **v1.1.0** - *June 13, 2021*
 
