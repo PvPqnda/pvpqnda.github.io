@@ -3,7 +3,7 @@ layout: datapack
 title: "Throwable Swords"
 permalink: /datapacks/throwable-swords
 date: 2021-10-01
-short-description: "Want to be able to throw your swords and axes like tridents? Now you can."
+short-description: "Want to be able to throw your swords or axes like tridents? Now you can."
 trailer: "https://youtu.be/UobKdnHP96Q"
 version: 2.0.0
 download: "/downloads/datapacks/Throwable Swords.zip"
