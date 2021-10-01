@@ -2,10 +2,10 @@
 layout: datapack
 title: "Throwable Swords"
 permalink: /datapacks/throwable-swords
-date: 2021-09-21
-short-description: "Want to be able to throw your swords like tridents? Now you can."
+date: 2021-10-01
+short-description: "Want to be able to throw your swords and axes like tridents? Now you can."
 trailer: "https://youtu.be/UobKdnHP96Q"
-version: 1.1.1
+version: 2.0.0
 download: "/downloads/datapacks/Throwable Swords.zip"
 ---
 Created by: PvPqnda
@@ -14,26 +14,37 @@ Created by: PvPqnda
 
 **Datapack Features:**
 
-- This datapack allows any sword to be thrown at mobs or blocks! The sword will drop back as an item once it hits something! *Supports item NBT data!*
+- This datapack allows any sword or axe to be thrown at mobs or blocks! The weapon will drop back as an item once it hits something!<br>
+*Supports item NBT data!*
 
-- To throw a sword, simply drop it while holding it!
+- To throw a sword or axe, simply drop it while holding it!
 
-- Thrown swords damage mobs and players, break glass, cut grass, and more!
+- Thrown weapons damage mobs and players, break glass, cut grass, and more!
 
 - Thrown swords enchanted with fire aspect will still respectively catch whatever mob it hits on fire!
 
-- Thrown swords will still lose durability upon landing!
+- Thrown weapons still lose durability upon landing!
 
-- There are 5 customizable settings to access using the command:<br>
+- There are 6 customizable settings to access using the command:<br>
 "/function throwableswords:admin_info"<br>
-*(only players with operator permissions can access this page)*
+*(Only players with operator permissions can access this page)*
 
-- Anyone is able to view how many swords they've thrown, and what settings are enabled/disabled by typing: "/trigger ThrowableSwords"<br>
-*(can be enabled/disabled in the admin info page)*
+- Anyone is able to view how many weapons they've thrown, and what settings are enabled/disabled by typing: "/trigger ThrowableSwords"<br>
+*(Can be enabled/disabled in the admin info page)*
 
 *Survival & Multiplayer friendly*
 <hr>
 **Changelog:**
+
+**v2.0.0** - *October 1, 2021*
+
+- All axes are now able to be thrown for extra damage! (Also added a setting in admin info page so axe and sword throwing can each be toggled individually)
+- Swords and axes now have a pickup delay after they land from being thrown, equivalent to that of the weapon's attack speed/cooldown/delay, for balancing
+- Improved entity hit detection consistency
+- Candles being put out by a thrown weapon now make a subtle sound
+- The public info page is now able to be viewed through the admin info page when disabled to the public
+- Tweaked throwing sounds
+- Performance improvements
 
 **v1.1.1** - *September 21, 2021*
 
