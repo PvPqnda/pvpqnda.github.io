@@ -2,15 +2,15 @@
 layout: datapack
 title: "Throwable Swords"
 permalink: /datapacks/throwable-swords
-date: 2021-10-01
+date: 2021-11-30
 short-description: "Want to be able to throw your swords or axes like tridents? Now you can."
 trailer: "https://youtu.be/UobKdnHP96Q"
-version: 2.0.0
+version: 2.0.1
 download: "/downloads/datapacks/Throwable Swords.zip"
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.17*
+*For Minecraft 1.17 - 1.18*
 
 **Datapack Features:**
 
@@ -35,6 +35,12 @@ Created by: PvPqnda
 *Survival & Multiplayer friendly*
 <hr>
 **Changelog:**
+
+**v2.0.1** - *November 30, 2021*
+
+- Removed thrown weapon world height limit to support 1.17 AND 1.18
+- Removed function file that was left unused after v1.1.1
+- Performance improvements
 
 **v2.0.0** - *October 1, 2021*
 
