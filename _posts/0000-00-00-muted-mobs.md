@@ -2,9 +2,9 @@
 layout: datapack
 title: "Muted Mobs"
 permalink: /datapacks/muted-mobs
-date: 2021-08-27
+date: 2021-11-30
 short-description: "Mobs are noisy, and can get annoying when you've put them in your base. Mute them!"
-version: 1.0.0
+version: 1.0.1
 download: "/downloads/datapacks/Muted Mobs.zip"
 ---
 Created by: PvPqnda
@@ -22,3 +22,9 @@ Created by: PvPqnda
 - Can also be useful in map making!
 
 *Survival & Multiplayer friendly*
+<hr>
+**Changelog:**
+
+**v1.0.1** - *November 30, 2021*
+
+- Performance improvements
