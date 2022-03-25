@@ -18,9 +18,9 @@ Created by: PvPqnda
 
 - Landing sounds are added to snowballs, eggs, and ender pearls.
 
-- Admins may toggle each projectile's landing sounds with these commands:
-"/function moreprojectilesounds:toggle/snowballs"
-"/function moreprojectilesounds:toggle/eggs"
+- Admins may toggle each projectile's landing sounds with these commands:<br>
+"/function moreprojectilesounds:toggle/snowballs"<br>
+"/function moreprojectilesounds:toggle/eggs"<br>
 "/function moreprojectilesounds:toggle/ender_pearls"
 
 *Survival & Multiplayer friendly*
