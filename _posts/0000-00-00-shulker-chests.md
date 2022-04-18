@@ -2,10 +2,10 @@
 layout: datapack
 title: "Shulker Chests"
 permalink: /datapacks/shulker-chests
-date: 2022-04-02
+date: 2022-04-18
 short-description: "Want to easily move your chests full of items from one location to another? Now you can."
 trailer: "https://youtu.be/JHFn5zKKIMc"
-version: 2.0.0
+version: 2.1.0
 download: "/downloads/datapacks/Shulker Chests.zip"
 ---
 Created by: PvPqnda
@@ -20,19 +20,28 @@ Created by: PvPqnda
 
 - Placing a container back down will retain any items that were still inside!
 
-- Even works in creative mode!
+- Even works in creative mode!<br>
+*(Unless the silk touch requirement setting is enabled)*
 
 - This affects chests, trapped chests, and barrels!
 
 - Filled containers will display their contents in text when hovered over in an inventory just like shulker boxes!
 
+- By default, silk touch is required on the tool mining a container in order for it to retain its contents!<br>
+*(This can be disabled in the Admin Info page)*
+
 - Supports the Expanded Storage mod v7.3.11 for both Forge and the Fabric Loader!
 
-- Admins may type "/function shulkerchests:admin_info" to toggle individual categories of containers!
+- Admins may type "/function shulkerchests:admin_info" to toggle individual categories of containers, or whether or not silk touch is required!
 
 *Survival & Multiplayer friendly*
 <hr>
 **Changelog:**
+
+**v2.1.0** - *April 18, 2022*
+
+- Silk Touch is now required for containers to retain their items when mined
+- Added a setting to disable the Silk Touch Requirement in the Admin Info page
 
 **v2.0.0** - *April 2, 2022*
 
