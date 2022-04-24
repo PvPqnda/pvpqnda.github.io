@@ -2,9 +2,9 @@
 layout: datapack
 title: "DeathPoint"
 permalink: /datapacks/deathpoint
-date: 2021-03-19
+date: 2022-04-23
 short-description: "Never forget where you die, so you never lose your items again!"
-version: 1.0.1
+version: 1.1.0
 download: "/downloads/datapacks/DeathPoint.zip"
 ---
 Created by: PvPqnda
@@ -20,6 +20,13 @@ Created by: PvPqnda
 *Survival & Multiplayer friendly*
 <hr>
 **Changelog:**
+
+**v1.1.0** - *April 23, 2022*
+
+- Completely rewrote the datapack
+- Now uses different methods depending on the version of Minecraft for efficiency in an all-in-one datapack file (No configuring required)
+- Fixed the datapack saving your your respawn point instead of your death point when gamerule "doImmediateRespawn" is set to true
+- Performance improvements
 
 **v1.0.1** - *March 19, 2021*
 
