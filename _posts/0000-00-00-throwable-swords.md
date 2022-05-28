@@ -63,4 +63,4 @@ Created by: PvPqnda
 - Scaffolding and leaves are now also able to be cut by thrown swords
 - Only one glass can be broken per sword thrown; same goes for the addition of leaves and pointed dripstone
 - Lit candles can be put out if a sword is thrown past them
-- Added a setting for a new function that damages thrown swords when they land, removing 1 durability from the sword, potentially breaking the sword if it already has 1 durability remaining
+- Added a setting for a new function that damages thrown swords when they land, removing 1 durability from the sword, breaking the sword if it already has 1 durability remaining

@@ -2,10 +2,10 @@
 layout: datapack
 title: "Shulker Chests"
 permalink: /datapacks/shulker-chests
-date: 2022-04-18
+date: 2022-05-27
 short-description: "Want to easily move your chests full of items from one location to another? Now you can."
 trailer: "https://youtu.be/JHFn5zKKIMc"
-version: 2.1.0
+version: 2.1.1
 download: "/downloads/datapacks/Shulker Chests.zip"
 ---
 Created by: PvPqnda
@@ -37,6 +37,12 @@ Created by: PvPqnda
 *Survival & Multiplayer friendly*
 <hr>
 **Changelog:**
+
+**v2.1.1** - *May 27, 2022*
+
+Fixed Dupe Glitches:
+- Filled containers inside of a container dropping despite being retained from being mined
+- Filled containers dropping after no longer being there due to time passing with the datapack disabled then re-enabled
 
 **v2.1.0** - *April 18, 2022*
 
