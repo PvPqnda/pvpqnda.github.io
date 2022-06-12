@@ -2,10 +2,10 @@
 layout: datapack
 title: "Security Cameras"
 permalink: /datapacks/security-cameras
-date: 2021-06-18
+date: 2022-06-12
 short-description: "Want to go on adventures but check on your base? Get security cameras."
 trailer: "https://youtu.be/1z1ojLY2aiA"
-version: 1.0.0
+version: 1.1.0
 download: "/downloads/datapacks/Security Cameras.zip"
 ---
 Created by: PvPqnda
@@ -18,7 +18,7 @@ Inspired by ~ FloBubz ~
 
 - Adds security cameras into the game!
 
-- Craft a security camera by dropping 1 iron ingot, 1 glass pane, and 1 redstone torch!
+- Craft security cameras by dropping any same number of iron ingots, glass panes, and redstone torches!
 
 - Placing a security camera on the underside of a block will face it towards you and generate a number ID linked to the camera which is what you use to view the camera!
 
@@ -40,3 +40,11 @@ This is to prevent anyone from attempting to defy risky situations.
 - Admins may list all OTHERS camera IDs by typing: "/function securitycameras:list/others"
 
 *Survival & Multiplayer friendly*
+<hr>
+**Changelog:**
+
+**v1.1.0** - *June 12, 2022*
+
+- Now supports blocks from Minecraft versions 1.17 - 1.19
+- Multiple security cameras can be crafted at once by dropping the same number of ingredients
+- Performance improvements
