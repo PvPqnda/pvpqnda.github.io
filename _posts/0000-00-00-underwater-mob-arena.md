@@ -1,16 +1,16 @@
 ---
 layout: map
 title: "Underwater Mob Arena"
-date: 2021-12-04
+date: 2022-06-13
 permalink: /maps/underwater-mob-arena
 short-description: "Underwater Mob Arena is a PvE minigame with 20 waves of mobs to defeat alone, or with friends!"
-java: "/downloads/maps/Underwater Mob Arena v1.1.1.zip"
-java-version: "1.18"
-version: 1.1.1
+java: "/downloads/maps/Underwater Mob Arena v1.1.2.zip"
+java-version: "1.19"
+version: 1.1.2
 ---
 Created by: PvPqnda & asluup
 -
-*For Minecraft 1.18*
+*For Minecraft 1.19*
 
 **Map Description:**
 
@@ -31,6 +31,11 @@ In between waves, you can use coins, which are obtained by killing enemies, to p
 *Also available on Minecraft Realms!*
 <hr>
 **Changelog:**
+
+**v1.1.2** - *June 13th, 2022*
+
+- Updated to Minecraft 1.19
+- Fixed advancement "Game On" not being granted
 
 **v1.1.1** - *December 4th, 2021*
 

@@ -1,17 +1,17 @@
 ---
 layout: map
 title: "Arrow Fight"
-date: 2021-12-05
+date: 2022-06-13
 permalink: /maps/arrow-fight
 short-description: "Arrow Fight is a PvP minigame with custom unique arrows with special abilities that you use to shoot at the enemy team to win!"
-java: "/downloads/maps/Arrow Fight WORLD v1.1.3 (Unzip).zip"
-java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.1.3 (Unzip).zip"
-java-version: "1.18"
-version: 1.1.3
+java: "/downloads/maps/Arrow Fight WORLD v1.1.4.zip"
+java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.1.4 (Unzip).zip"
+java-version: "1.19"
+version: 1.1.4
 ---
 Created by: PvPqnda & Hielke
 -
-*For Minecraft 1.18*
+*For Minecraft 1.19*
 
 **Map Description:**
 
@@ -34,6 +34,12 @@ Once all players on their team is dead, the other team wins. However, you are un
 *Also available on Minecraft Realms!*
 <hr>
 **Changelog:**
+
+**v1.1.4** - *June 13th, 2022*
+
+- Updated to Minecraft 1.19
+- Fixed bug making shops inaccessible for the rest of the whole round after being shot with a lightning arrow
+- Updated skins on creator player models
 
 **v1.1.3** - *December 5th, 2021*
 
