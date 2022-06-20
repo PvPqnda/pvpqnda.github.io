@@ -36,7 +36,7 @@ Created by: PvPqnda
 <hr>
 **Changelog:**
 
-**v2.0.3** - *June 19, 2022*
+**v2.0.3** - *June 19th, 2022*
 
 - Added support for Minecraft 1.19
 - Mangrove propagules and sculk veins can now be cut by thrown weapons
@@ -45,16 +45,16 @@ Created by: PvPqnda
 - Edited the thrown axe death message
 - Added a warning message for when using the datapack in an old unsupported version of Minecraft
 
-**v2.0.2** - *March 3, 2022*
+**v2.0.2** - *March 3rd, 2022*
 
 - Fixed bug duplicating weapons thrown by players in creative mode while setting "Durability" is set to false
 
-**v2.0.1** - *November 30, 2021*
+**v2.0.1** - *November 30th, 2021*
 
 - Removed thrown weapon world height limit to support 1.17 AND 1.18
 - Performance improvements
 
-**v2.0.0** - *October 1, 2021*
+**v2.0.0** - *October 1st, 2021*
 
 - All axes are now able to be thrown for extra damage! (Also added a setting in admin info page so axe and sword throwing can each be toggled individually)
 - Swords and axes now have a pickup delay after they land from being thrown, equivalent to that of the weapon's attack speed/cooldown/delay, for balancing
@@ -64,13 +64,13 @@ Created by: PvPqnda
 - Tweaked throwing sounds
 - Performance improvements
 
-**v1.1.1** - *September 21, 2021*
+**v1.1.1** - *September 21st, 2021*
 
 - No longer supports previous versions; Minecraft 1.17 only
 - Fixed "Durability" setting from being unable to be set to False
 - Performance improvements
 
-**v1.1.0** - *June 13, 2021*
+**v1.1.0** - *June 13th, 2021*
 
 - Added 1.17 support and added some of the new 1.17 blocks to the blocks that can be cut by thrown swords (Pointed Dripstone, Amethyst Buds/Clusters, Dripleaves, Azalea, Glow Lichen, Cave Vines, and Hanging Roots)
 - Scaffolding and leaves are now also able to be cut by thrown swords
