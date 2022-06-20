@@ -2,15 +2,15 @@
 layout: datapack
 title: "Throwable Swords"
 permalink: /datapacks/throwable-swords
-date: 2021-11-30
+date: 2022-06-19
 short-description: "Want to be able to throw your swords or axes like tridents? Now you can."
 trailer: "https://youtu.be/UobKdnHP96Q"
-version: 2.0.1
+version: 2.0.3
 download: "/downloads/datapacks/Throwable Swords.zip"
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.17 - 1.18*
+*For Minecraft 1.17 - 1.19*
 
 **Datapack Features:**
 
@@ -35,6 +35,19 @@ Created by: PvPqnda
 *Survival & Multiplayer friendly*
 <hr>
 **Changelog:**
+
+**v2.0.3** - *June 19, 2022*
+
+- Added support for Minecraft 1.19
+- Mangrove propagules and sculk veins can now be cut by thrown weapons
+- Blocks cut by weapons thrown by creative mode players no longer drop items
+- Fixed strong axes sometimes sending player death messages without killing the player
+- Edited the thrown axe death message
+- Added a warning message for when using the datapack in an old unsupported version of Minecraft
+
+**v2.0.2** - *March 3, 2022*
+
+- Fixed bug duplicating weapons thrown by players in creative mode while setting "Durability" is set to false
 
 **v2.0.1** - *November 30, 2021*
 
