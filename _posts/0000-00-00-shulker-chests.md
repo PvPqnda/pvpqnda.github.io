@@ -2,10 +2,10 @@
 layout: datapack
 title: "Shulker Chests"
 permalink: /datapacks/shulker-chests
-date: 2022-05-27
+date: 2022-06-27
 short-description: "Want to easily move your chests full of items from one location to another? Now you can."
 trailer: "https://youtu.be/JHFn5zKKIMc"
-version: 2.1.1
+version: 2.2.0
 download: "/downloads/datapacks/Shulker Chests.zip"
 ---
 Created by: PvPqnda
@@ -32,11 +32,18 @@ Created by: PvPqnda
 
 - Supports the Expanded Storage mod v7.3.11 for both Forge and the Fabric Loader!
 
+- Still prevents infinite storage by putting filled containers inside filled containers!
+
 - Admins may type "/function shulkerchests:admin_info" to toggle individual categories of containers, or whether or not silk touch is required!
 
 *Survival & Multiplayer friendly*
 <hr>
 **Changelog:**
+
+**v2.2.0** - *June 27, 2022*
+
+- Added a feature in the Admin Info page preventing containers from retaining other filled containers inside when mined, to disallow infinite storage by default
+- Fixed the "Mini Chests" container category setting being visible in the Admin Info page in vanilla 1.19
 
 **v2.1.1** - *May 27, 2022*
 
