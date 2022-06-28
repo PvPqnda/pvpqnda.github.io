@@ -42,7 +42,8 @@ Created by: PvPqnda
 
 **v2.2.0** - *June 27, 2022*
 
-- Added a feature in the Admin Info page preventing containers from retaining other filled containers inside when mined, to disallow infinite storage by default
+- Containers no longer retain other filled containers inside when mined, preventing infinite storage within a single container
+- Added a setting to enable containers retaining other filled containers inside when mined in the Admin Info page
 - Fixed the "Mini Chests" container category setting being visible in the Admin Info page in vanilla 1.19
 
 **v2.1.1** - *May 27, 2022*
