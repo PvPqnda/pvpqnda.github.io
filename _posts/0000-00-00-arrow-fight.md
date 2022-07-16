@@ -35,17 +35,17 @@ Once all players on their team is dead, the other team wins. However, you are un
 <hr>
 **Changelog:**
 
-**v1.1.4** - *June 13th, 2022*
+**v1.1.4** - *June 13, 2022*
 
 - Updated to Minecraft 1.19
 - Fixed bug making shops inaccessible for the rest of the whole round after being shot with a lightning arrow
 - Updated skins on creator player models
 
-**v1.1.3** - *December 5th, 2021*
+**v1.1.3** - *December 5, 2021*
 
 - Updated to Minecraft 1.18
 
-**v1.1.2** - *June 21st, 2021*
+**v1.1.2** - *June 21, 2021*
 
 - Updated to Minecraft 1.17
 - Nether portals will now break upon entering
@@ -53,7 +53,7 @@ Once all players on their team is dead, the other team wins. However, you are un
 - Boats and minecarts will now despawn when out of the play area
 - Block Eater Arrows will now also eat falling sand entities in range
 
-**v1.1.1** - *March 6th, 2021*
+**v1.1.1** - *March 6, 2021*
 
 - Updated to Minecraft 1.16.5
 - When a villager shop is shot with a lightning arrow, it now reverts back to its tradable villager form after 10 seconds

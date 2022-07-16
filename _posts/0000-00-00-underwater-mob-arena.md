@@ -32,25 +32,25 @@ In between waves, you can use coins, which are obtained by killing enemies, to p
 <hr>
 **Changelog:**
 
-**v1.1.2** - *June 13th, 2022*
+**v1.1.2** - *June 13, 2022*
 
 - Updated to Minecraft 1.19
 - Fixed advancement "Game On" not being granted
 
-**v1.1.1** - *December 4th, 2021*
+**v1.1.1** - *December 4, 2021*
 
 - Updated to Minecraft 1.18
 - Fixed bug not giving Underwater Mines back to players who attempt placing it in a position that it is unable to be placed in
 - Fixed Easter Egg advancement being granted to players upon joining the map for the first time
 
 
-**v1.1.0** - *June 21st, 2021*
+**v1.1.0** - *June 21, 2021*
 
 - Updated to Minecraft 1.17
 - Added axolotls to the shop to help aid players in battle
 - Performance improvements
 
-**v1.0.2** - *May 16th, 2021*
+**v1.0.2** - *May 16, 2021*
 
 - Updated to Minecraft 1.16.5
 - Tank Drowned mobs now drop 3 coins instead of 1
