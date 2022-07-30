@@ -6,6 +6,7 @@ permalink: /maps/underwater-mob-arena
 short-description: "Underwater Mob Arena is a PvE minigame with 20 waves of mobs to defeat alone, or with friends!"
 java: "/downloads/maps/Underwater Mob Arena v1.1.2.zip"
 java-version: "1.19"
+type: "Map"
 version: 1.1.2
 ---
 Created by: PvPqnda & asluup
@@ -29,15 +30,22 @@ In between waves, you can use coins, which are obtained by killing enemies, to p
 "Most gamers are familiar with arena combat, where you defeat mobs one after the other in an enclosed area, attempting to survive until the very end. Underwater Mob Arena takes that concept to new depths as you complete wave after wave of aquatic combat. Defeating enemies will let you purchase upgrades to weapons, armor, or even powerful items with special abilities, such as sucking in nearby mobs or blowing your foes sky high."
 
 *Also available on Minecraft Realms!*
-<hr>
-**Changelog:**
 
-**v1.1.2** - *June 13, 2022*
+<div id="accordion">
+  <div class="card">
+        <button class="card-header mb-0 btn btn-link text-decoration-none" data-toggle="collapse" data-target="#changelog" aria-expanded="false" aria-controls="changelog" id="changelogBtn">
+           Changelog
+        </button>
+</div>
 
-- Updated to Minecraft 1.19
-- Fixed advancement "Game On" not being granted
+<div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
+      <div class="card-body">
+<b>v1.1.2</b> - <b>June 13, 2022</b><br>
+<br>
+- Updated to Minecraft 1.19<br>
+- Fixed advancement "Game On" not being granted<br><br>
 
-**v1.1.1** - *December 4, 2021*
+<b>v1.1.1</b> - *December 4, 2021*
 
 - Updated to Minecraft 1.18
 - Fixed bug not giving Underwater Mines back to players who attempt placing it in a position that it is unable to be placed in
@@ -62,3 +70,6 @@ In between waves, you can use coins, which are obtained by killing enemies, to p
 - Fixed inconsistencies with signs
 - The sidebar kill counter now resets once all players are logged off
 - Performance improvements
+      </div>
+    </div>
+  </div>

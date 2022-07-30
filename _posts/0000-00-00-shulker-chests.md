@@ -5,8 +5,9 @@ permalink: /datapacks/shulker-chests
 date: 2022-06-27
 short-description: "Want to easily move your chests full of items from one location to another? Now you can."
 trailer: "https://youtu.be/JHFn5zKKIMc"
-version: 2.2.0
+type: "Datapack"
 download: "/downloads/datapacks/Shulker Chests.zip"
+version: 2.2.0
 ---
 Created by: PvPqnda
 -

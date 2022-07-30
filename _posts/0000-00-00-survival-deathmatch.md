@@ -6,6 +6,7 @@ permalink: /maps/survival-deathmatch
 short-description: "Survival Deathmatch is a map where you use your survival skills to win this PvP minigame!"
 java: "/downloads/maps/Survival Deathmatch v1.0.0.zip"
 java-version: "1.15.2"
+type: "Map"
 version: 1.0.0
 ---
 Created by: PvPqnda

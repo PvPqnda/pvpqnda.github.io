@@ -7,6 +7,7 @@ short-description: "Arrow Fight is a PvP minigame with custom unique arrows with
 java: "/downloads/maps/Arrow Fight WORLD v1.1.4.zip"
 java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.1.4 (Unzip).zip"
 java-version: "1.19"
+type: "Map"
 version: 1.1.4
 ---
 Created by: PvPqnda & Hielke

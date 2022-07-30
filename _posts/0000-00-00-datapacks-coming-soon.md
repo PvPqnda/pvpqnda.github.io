@@ -5,6 +5,7 @@ permalink: /datapacks/coming-soon
 date: 0000-01-01
 short-description: "Many more datapacks are coming soon!"
 version: 0
+type: "info"
 download: "/coming-soon.png"
 ---
 

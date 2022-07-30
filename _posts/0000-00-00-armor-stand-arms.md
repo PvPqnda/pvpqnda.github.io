@@ -3,6 +3,7 @@ layout: datapack
 title: "Armor Stand Arms"
 permalink: /datapacks/armor-stand-arms
 date: 2020-05-11
+type: "Datapack"
 short-description: "Your armor stands can't hold any items, so give 'em a hand! Or, two of them?"
 version: 1.0.1
 download: "/downloads/datapacks/Armor Stand Arms.zip"

@@ -5,6 +5,7 @@ permalink: /datapacks/throwable-swords
 date: 2022-07-16
 short-description: "Want to be able to throw your swords or axes like tridents? Now you can."
 trailer: "https://youtu.be/UobKdnHP96Q"
+type: "Datapack"
 version: 2.0.4
 download: "/downloads/datapacks/Throwable Swords.zip"
 ---

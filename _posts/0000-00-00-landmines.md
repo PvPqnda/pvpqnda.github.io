@@ -6,6 +6,7 @@ date: 2022-06-12
 short-description: "Want fun new ways to set traps for your friends, or even mobs? One word. Landmines."
 trailer: "https://youtu.be/IU7CHmgjh6U"
 version: 1.1.0
+type: "Datapack"
 download: "/downloads/datapacks/Landmines.zip"
 ---
 Created by: PvPqnda

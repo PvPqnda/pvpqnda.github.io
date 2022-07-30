@@ -6,6 +6,7 @@ date: 2022-03-25
 short-description: "Add some aesthetic sounds to your throwables when they land!"
 trailer: "https://youtu.be/RHqeGQpZwtw"
 version: 1.0.0
+type: "Datapack"
 download: "/downloads/datapacks/More Projectile Sounds.zip"
 ---
 Created by: PvPqnda
