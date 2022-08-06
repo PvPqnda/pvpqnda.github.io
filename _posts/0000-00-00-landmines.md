@@ -42,16 +42,26 @@ However, they all have a visible red button on top.
 - Admins may type "/function landmines:admin_info" to access 2 customizable settings, see how many landmines are placed, teleport to different landmines, remove landmines, or manually detonate them!
 
 *Survival & Multiplayer friendly*
-<hr>
-**Changelog:**
 
-**v1.1.0** - *June 12, 2022*
+<div id="accordion">
+  <div class="card">
+        <button class="card-header mb-0 btn btn-link text-decoration-none" data-toggle="collapse" data-target="#changelog" aria-expanded="false" aria-controls="changelog" id="changelogBtn">
+           Changelog
+        </button>
+</div>
 
-- Now only supports Minecraft 1.19
-- Added an Admin Info page (Accessible using "/function landmines:admin_info") with 2 new settings that apply to all landmines: "Activation Type" & "Explosion Delay"
-- Also accessible in the new Admin Info page, are the old "Count Landmines" and "Remove All Landmines" functions with the addition of "Detonate All Landmines"
-- Multiple landmines will now set each other off in a chain reaction if within 4 blocks of one another
-- Multiple landmines can be crafted at once by dropping multiple TNT and the same number of buttons of the same type
-- Added deepslate and snowy base themes
-- Landmine block placement bug fixes
-- Performance improvements
+<div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
+      <div class="card-body">
+<b>v1.1.0</b> - <em>June 12, 2022</em><br>
+<br>
+- Now only supports Minecraft 1.19<br>
+- Added an Admin Info page (Accessible using "/function landmines:admin_info") with 2 new settings that apply to all landmines: "Activation Type" & "Explosion Delay"<br>
+- Also accessible in the new Admin Info page, are the old "Count Landmines" and "Remove All Landmines" functions with the addition of "Detonate All Landmines"<br>
+- Multiple landmines will now set each other off in a chain reaction if within 4 blocks of one another<br>
+- Multiple landmines can be crafted at once by dropping multiple TNT and the same number of buttons of the same type<br>
+- Added deepslate and snowy base themes<br>
+- Landmine block placement bug fixes<br>
+- Performance improvements<br>
+      </div>
+    </div>
+  </div>

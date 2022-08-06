@@ -35,6 +35,11 @@ layout: default
 
         <hr>
         <div class="text-center">
+          {% if page.patreon %}
+          <a href="{{page.patreon}}" class="btn btn-success patreonbtn {% if page.bedrock %}float-right{% endif %}"><i
+            class="fa fa-download"></i> Get it on Patreon</a>
+          {% endif %}
+          
           {% if page.bedrock %}
           <a href="{{page.bedrock}}" class="btn btn-success downloadbtn"><i class="fa fa-download"></i> Get it for
             Bedrock</a>
@@ -45,10 +50,6 @@ layout: default
               class="fa fa-download"></i> Get it for
             Java</a>
 
-            {% if page.patreon %}
-            <a href="{{page.patreon}}" class="btn btn-success patreonbtn {% if page.bedrock %}float-right{% endif %}"><i
-              class="fa fa-download"></i> Get it on Patreon</a>
-            {% endif %}
           {% if page.java-rp %}
           <a href="{{page.java-rp}}" class="btn btn-success downloadbtn"><i
               class="fa fa-download"></i> Get Resource Pack</a>

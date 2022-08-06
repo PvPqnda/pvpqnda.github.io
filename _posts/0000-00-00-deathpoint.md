@@ -19,17 +19,27 @@ Created by: PvPqnda
 - Typing "/trigger DeathPoint" will send you a similar message stating where you were at your last death point.
 
 *Survival & Multiplayer friendly*
-<hr>
-**Changelog:**
 
-**v1.1.0** - *April 23, 2022*
+<div id="accordion">
+  <div class="card">
+        <button class="card-header mb-0 btn btn-link text-decoration-none" data-toggle="collapse" data-target="#changelog" aria-expanded="false" aria-controls="changelog" id="changelogBtn">
+           Changelog
+        </button>
+</div>
 
-- Completely rewrote the datapack
-- Now uses different methods depending on the version of Minecraft for efficiency in an all-in-one datapack file (No configuring required)
-- Fixed the datapack saving your your respawn point instead of your death point when gamerule "doImmediateRespawn" is set to true
-- Performance improvements
-
-**v1.0.1** - *March 19, 2021*
-
-- Added support for Minecraft 1.16 and above
-- Edited a chat message character
+<div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
+      <div class="card-body">
+<b>v1.1.0</b> - <em>April 23, 2022</em><br>
+<br>
+- Completely rewrote the datapack<br>
+- Now uses different methods depending on the version of Minecraft for efficiency in an all-in-one datapack file (No configuring required)<br>
+- Fixed the datapack saving your your respawn point instead of your death point when gamerule "doImmediateRespawn" is set to true<br>
+- Performance improvements<br>
+<br>
+<b>v1.0.1</b> - <em>March 19, 2021</em><br>
+<br>
+- Added support for Minecraft 1.16 and above<br>
+- Edited a chat message character<br>
+      </div>
+    </div>
+  </div>

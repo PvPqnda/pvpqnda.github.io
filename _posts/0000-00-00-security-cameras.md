@@ -42,11 +42,21 @@ This is to prevent anyone from attempting to defy risky situations.
 - Admins may list all OTHERS camera IDs by typing: "/function securitycameras:list/others"
 
 *Survival & Multiplayer friendly*
-<hr>
-**Changelog:**
 
-**v1.1.0** - *June 12, 2022*
+<div id="accordion">
+  <div class="card">
+        <button class="card-header mb-0 btn btn-link text-decoration-none" data-toggle="collapse" data-target="#changelog" aria-expanded="false" aria-controls="changelog" id="changelogBtn">
+           Changelog
+        </button>
+</div>
 
-- Now supports blocks from Minecraft versions 1.17 - 1.19
-- Multiple security cameras can be crafted at once by dropping the same number of ingredients
-- Performance improvements
+<div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
+      <div class="card-body">
+<b>v1.1.0</b> - <em>June 12, 2022</em><br>
+<br>
+- Now supports blocks from Minecraft versions 1.17 - 1.19<br>
+- Multiple security cameras can be crafted at once by dropping the same number of ingredients<br>
+- Performance improvements<br>
+      </div>
+    </div>
+  </div>

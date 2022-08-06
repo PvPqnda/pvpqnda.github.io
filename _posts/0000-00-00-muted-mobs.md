@@ -23,9 +23,19 @@ Created by: PvPqnda
 - Can also be useful in map making!
 
 *Survival & Multiplayer friendly*
-<hr>
-**Changelog:**
 
-**v1.0.1** - *November 30, 2021*
+<div id="accordion">
+  <div class="card">
+        <button class="card-header mb-0 btn btn-link text-decoration-none" data-toggle="collapse" data-target="#changelog" aria-expanded="false" aria-controls="changelog" id="changelogBtn">
+           Changelog
+        </button>
+</div>
 
-- Performance improvements
+<div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
+      <div class="card-body">
+<b>v1.0.1</b> - <em>November 30, 2021</em><br>
+<br>
+- Performance improvements<br>
+      </div>
+    </div>
+  </div>

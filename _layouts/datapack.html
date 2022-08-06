@@ -30,6 +30,10 @@ layout: default
         {{ content }}
         <hr>
         <div class="text-center">
+          {% if page.patreon %}
+          <a href="{{page.patreon}}" class="btn btn-success patreonbtn {% if page.bedrock %}float-right{% endif %}"><i
+            class="fa fa-download"></i> Get it on Patreon</a>
+          {% endif %}
           <a href="{{page.download}}" class="btn btn-success downloadbtn"><i class="fa fa-download"></i> Download</a>
         </div>
         <hr>

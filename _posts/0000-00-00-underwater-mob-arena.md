@@ -40,36 +40,35 @@ In between waves, you can use coins, which are obtained by killing enemies, to p
 
 <div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
       <div class="card-body">
-<b>v1.1.2</b> - <b>June 13, 2022</b><br>
+<b>v1.1.2</b> - <em>June 13, 2022</em><br>
 <br>
 - Updated to Minecraft 1.19<br>
-- Fixed advancement "Game On" not being granted<br><br>
-
-<b>v1.1.1</b> - *December 4, 2021*
-
-- Updated to Minecraft 1.18
-- Fixed bug not giving Underwater Mines back to players who attempt placing it in a position that it is unable to be placed in
-- Fixed Easter Egg advancement being granted to players upon joining the map for the first time
-
-
-**v1.1.0** - *June 21, 2021*
-
-- Updated to Minecraft 1.17
-- Added axolotls to the shop to help aid players in battle
-- Performance improvements
-
-**v1.0.2** - *May 16, 2021*
-
-- Updated to Minecraft 1.16.5
-- Tank Drowned mobs now drop 3 coins instead of 1
-- Replaced the "Defeat the mighty Elder Guardian" advancement with "Defeat a Tank Drowned"
-- Renamed the "Team Player" advancement to "Immortal" and made the advancement be granted to those who use the totem of undying normally, as well as reviving a dead teammate so the advancement is obtainable with 1 player
-- Fixed bug causing players to no longer have their perk's potion effect applied after dying and respawning
-- Fixed bug not removing placed underwater mines after a game ends
-- Changed the iron sword and iron helmet at the "Enchant Weapon/Armor" pillars in the shop to the golden variants
-- Fixed inconsistencies with signs
-- The sidebar kill counter now resets once all players are logged off
-- Performance improvements
+- Fixed advancement "Game On" not being granted<br>
+<br>
+<b>v1.1.1</b> - <em>December 4, 2021</em><br>
+<br>
+- Updated to Minecraft 1.18<br>
+- Fixed bug not giving Underwater Mines back to players who attempt placing it in a position that it is unable to be placed in<br>
+- Fixed Easter Egg advancement being granted to players upon joining the map for the first time<br>
+<br>
+<b>v1.1.0</b> - <em>June 21, 2021</em><br>
+<br>
+- Updated to Minecraft 1.17<br>
+- Added axolotls to the shop to help aid players in battle<br>
+- Performance improvements<br>
+<br>
+<b>v1.0.2</b> - <em>May 16, 2021</em><br>
+<br>
+- Updated to Minecraft 1.16.5<br>
+- Tank Drowned mobs now drop 3 coins instead of 1<br>
+- Replaced the "Defeat the mighty Elder Guardian" advancement with "Defeat a Tank Drowned"<br>
+- Renamed the "Team Player" advancement to "Immortal" and made the advancement be granted to those who use the totem of undying normally, as well as reviving a dead teammate so the advancement is obtainable with 1 player<br>
+- Fixed bug causing players to no longer have their perk's potion effect applied after dying and respawning<br>
+- Fixed bug not removing placed underwater mines after a game ends<br>
+- Changed the iron sword and iron helmet at the "Enchant Weapon/Armor" pillars in the shop to the golden variants<br>
+- Fixed inconsistencies with signs<br>
+- The sidebar kill counter now resets once all players are logged off<br>
+- Performance improvements<br>
       </div>
     </div>
   </div>

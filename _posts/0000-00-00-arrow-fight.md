@@ -33,34 +33,44 @@ Once all players on their team is dead, the other team wins. However, you are un
 "Resource gathering and careful exploration in the face of adversity are a theme as old as humanity itself, and the two team/two island setup speaks to the duality within us all."
 
 *Also available on Minecraft Realms!*
-<hr>
-**Changelog:**
 
-**v1.1.4** - *June 13, 2022*
+<div id="accordion">
+  <div class="card">
+        <button class="card-header mb-0 btn btn-link text-decoration-none" data-toggle="collapse" data-target="#changelog" aria-expanded="false" aria-controls="changelog" id="changelogBtn">
+           Changelog
+        </button>
+</div>
 
-- Updated to Minecraft 1.19
-- Fixed bug making shops inaccessible for the rest of the whole round after being shot with a lightning arrow
-- Updated skins on creator player models
-
-**v1.1.3** - *December 5, 2021*
-
-- Updated to Minecraft 1.18
-
-**v1.1.2** - *June 21, 2021*
-
-- Updated to Minecraft 1.17
-- Nether portals will now break upon entering
-- Added an anti-escapee function that kills players who escape the play area
-- Boats and minecarts will now despawn when out of the play area
-- Block Eater Arrows will now also eat falling sand entities in range
-
-**v1.1.1** - *March 6, 2021*
-
-- Updated to Minecraft 1.16.5
-- When a villager shop is shot with a lightning arrow, it now reverts back to its tradable villager form after 10 seconds
-- The arrow shop prices have been tweaked to speed up gameplay
-- Ores now drop multiple drops to speed up gameplay
-- Gravel now has a 100% chance of dropping flint to speed up gameplay (previously 50%)
-- The villager shop now slowly falls when the blocks below it are destroyed, rather than floating in the air
-- Added capes respectively to player models in spawn lobby
-- Removed the easter egg that gives players a single extra token in the winners' room
+<div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
+      <div class="card-body">
+<b>v1.1.4</b> - <em>June 13, 2022</em><br>
+<br>
+- Updated to Minecraft 1.19<br>
+- Fixed bug making shops inaccessible for the rest of the whole round after being shot with a lightning arrow<br>
+- Updated skins on creator player models<br>
+<br>
+<b>v1.1.3</b> - <em>December 5, 2021</em><br>
+<br>
+- Updated to Minecraft 1.18<br>
+<br>
+<b>v1.1.2</b> - <em>June 21, 2021</em><br>
+<br>
+- Updated to Minecraft 1.17<br>
+- Nether portals will now break upon entering<br>
+- Added an anti-escapee function that kills players who escape the play area<br>
+- Boats and minecarts will now despawn when out of the play area<br>
+- Block Eater Arrows will now also eat falling sand entities in range<br>
+<br>
+<b>v1.1.1</b> - <em>March 6, 2021</em><br>
+<br>
+- Updated to Minecraft 1.16.5<br>
+- When a villager shop is shot with a lightning arrow, it now reverts back to its tradable villager form after 10 seconds<br>
+- The arrow shop prices have been tweaked to speed up gameplay<br>
+- Ores now drop multiple drops to speed up gameplay<br>
+- Gravel now has a 100% chance of dropping flint to speed up gameplay (previously 50%)<br>
+- The villager shop now slowly falls when the blocks below it are destroyed, rather than floating in the air<br>
+- Added capes respectively to player models in spawn lobby<br>
+- Removed the easter egg that gives players a single extra token in the winners' room<br>
+      </div>
+    </div>
+  </div>
