@@ -6,7 +6,6 @@ date: 2021-11-19
 short-description: "Lock your chests to any password so your foes can't steal your items!"
 trailer: "https://youtu.be/6JEHf2ZaerY"
 version: 1.0.0
-type: "Datapack"
 download: "/downloads/datapacks/Lockable Containers.zip"
 ---
 Created by: PvPqnda

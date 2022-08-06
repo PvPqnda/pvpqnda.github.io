@@ -18,10 +18,18 @@ Recently Updated:
       <img class="card-img-top" src="{{site.baseurl}}/img/{{post.permalink}}/thumbnail.jpg" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title mb-1">{{ post.title }}</h4>
-        <span class="badge badge-secondary">{{ post.type }}</span>
-        {% if post.patreon %}
-        <span class="badge badge-patreon">Patreon</span>
+        {% if post.layout == 'map' %}
+          <span class="badge badge-green">{{ post.layout | capitalize }} {{post.java-version}}</span>
         {% endif %}
+        {% if post.layout == 'datapack' %}
+          <span class="badge badge-yellow">{{ post.layout | capitalize }} {{post.java-version}}</span>
+        {% endif %}
+        {% if post.patreon %}
+          <span class="badge badge-patreon">Patreon</span>
+        {% endif %}
+        {% for tag in post.tags %}
+          <span class="badge badge-secondary">{{ tag }}</span>
+        {% endfor %}
         <p class="card-text mt-4">{{post.short-description}}</p>
         <p class="post-meta"> {% if post.version %}v{{post.version}} - {% endif %}{{ post.date | date: '%B %d, %Y' }}
         </p>

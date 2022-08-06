@@ -13,6 +13,32 @@
     font-style: normal;
 }
 
+.banner-text {
+	margin-left: 8px;
+    top: -5px;
+    position: relative;
+}
+
+.badge-green {
+	background-color:#08a600;
+	color:white;
+}
+
+.badge-yellow {
+	background-color:#edb200;
+	color:white;
+}
+
+.badge-version {
+	background-color:#ba0000;
+	color:white;
+}
+
+.badge-patreon {
+	background-color:#f76754;
+	color:white;
+}
+
 .image-container {
 	display: flex;
 	align-items: center;
@@ -183,11 +209,6 @@ div.row > div > div.row {
     color: #969696;
     letter-spacing: 5px;
     font-weight: 650;
-}
-
-.badge-patreon {
-	background-color:#f76754;
-	color:white;
 }
 
 .patreonbtn {

@@ -5,7 +5,6 @@ permalink: /datapacks/security-cameras
 date: 2022-06-12
 short-description: "Want to go on adventures but check on your base? Get security cameras."
 trailer: "https://youtu.be/1z1ojLY2aiA"
-type: "Datapack"
 version: 1.1.0
 download: "/downloads/datapacks/Security Cameras.zip"
 patreon: "https://www.patreon.com/pvpqnda"

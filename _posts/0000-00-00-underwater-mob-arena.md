@@ -6,7 +6,6 @@ permalink: /maps/underwater-mob-arena
 short-description: "Underwater Mob Arena is a PvE minigame with 20 waves of mobs to defeat alone, or with friends!"
 java: "/downloads/maps/Underwater Mob Arena v1.1.2.zip"
 java-version: "1.19"
-type: "Map"
 version: 1.1.2
 ---
 Created by: PvPqnda & asluup

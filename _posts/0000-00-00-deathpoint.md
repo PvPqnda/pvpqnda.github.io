@@ -5,7 +5,6 @@ permalink: /datapacks/deathpoint
 date: 2022-04-23
 short-description: "Never forget where you die, so you never lose your items again!"
 version: 1.1.0
-type: "Datapack"
 download: "/downloads/datapacks/DeathPoint.zip"
 ---
 Created by: PvPqnda
