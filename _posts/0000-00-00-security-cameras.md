@@ -4,16 +4,18 @@ title: "Security Cameras"
 permalink: /datapacks/security-cameras
 date: 2022-06-12
 short-description: "Want to go on adventures but check on your base? Get security cameras."
-trailer: "https://youtu.be/1z1ojLY2aiA"
-version: 1.1.0
 download: "/downloads/datapacks/Security Cameras.zip"
 patreon: "https://www.patreon.com/pvpqnda"
+trailer: "https://youtu.be/1z1ojLY2aiA"
+tags: ["Item"]
+java-version: "1.16+"
+version: 1.1.0
 ---
 Created by: PvPqnda
 -
 Inspired by ~ FloBubz ~
 
-*For Minecraft 1.16+*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 

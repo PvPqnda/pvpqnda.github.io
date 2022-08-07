@@ -11,6 +11,9 @@ background: '/img/bg-map.jpg'
       <img class="card-img-top" src="{{site.baseurl}}/img/{{post.permalink}}/thumbnail.jpg" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title">{{ post.title }}</h4>
+        {% if post.layout == 'map' %}
+          <span class="badge badge-green">{{ post.layout | capitalize }} {{post.java-version}}</span>
+        {% endif %}
         {% if post.patreon %}
           <span class="badge badge-patreon">Patreon</span>
         {% endif %}

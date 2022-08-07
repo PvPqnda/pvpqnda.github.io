@@ -4,12 +4,14 @@ title: "Muted Mobs"
 permalink: /datapacks/muted-mobs
 date: 2021-11-30
 short-description: "Mobs are noisy, and can get annoying when you've put them in your base. Mute them!"
-version: 1.0.1
 download: "/downloads/datapacks/Muted Mobs.zip"
+tags: ["Quality of Life"]
+java-version: "1.14+"
+version: 1.0.1
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.14+*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 

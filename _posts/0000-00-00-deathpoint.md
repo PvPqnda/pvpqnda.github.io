@@ -4,12 +4,14 @@ title: "DeathPoint"
 permalink: /datapacks/deathpoint
 date: 2022-04-23
 short-description: "Never forget where you die, so you never lose your items again!"
-version: 1.1.0
 download: "/downloads/datapacks/DeathPoint.zip"
+tags: ["Utility"]
+java-version: "1.13+"
+version: 1.1.0
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.13+*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 

@@ -14,6 +14,9 @@ New datapacks are posted on Fridays!
       <img class="card-img-top" src="{{site.baseurl}}/img/{{post.permalink}}/thumbnail.jpg" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title">{{ post.title }}</h4>
+        {% if post.layout == 'datapack' %}
+          <span class="badge badge-yellow">{{ post.layout | capitalize }} {{post.java-version}}</span>
+        {% endif %}
         {% if post.patreon %}
           <span class="badge badge-patreon">Patreon</span>
         {% endif %}

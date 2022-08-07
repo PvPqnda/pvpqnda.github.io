@@ -4,13 +4,15 @@ title: "Throwable Swords"
 permalink: /datapacks/throwable-swords
 date: 2022-07-16
 short-description: "Want to be able to throw your swords or axes like tridents? Now you can."
-trailer: "https://youtu.be/UobKdnHP96Q"
-version: 2.0.4
 download: "/downloads/datapacks/Throwable Swords.zip"
+trailer: "https://youtu.be/UobKdnHP96Q"
+tags: ["Game Mechanic"]
+java-version: "1.17 - 1.19"
+version: 2.0.4
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.17 - 1.19*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 

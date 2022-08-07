@@ -3,14 +3,15 @@ layout: datapack
 title: "Armor Stand Arms"
 permalink: /datapacks/armor-stand-arms
 date: 2020-05-11
-tags: ["test1","tag2"]
 short-description: "Your armor stands can't hold any items, so give 'em a hand! Or, two of them?"
-version: 1.0.1
 download: "/downloads/datapacks/Armor Stand Arms.zip"
+tags: ["Quality of Life"]
+java-version: "1.13+"
+version: 1.0.1
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.13+*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 

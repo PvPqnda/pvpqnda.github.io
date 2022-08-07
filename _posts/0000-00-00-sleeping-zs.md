@@ -4,13 +4,15 @@ title: "Sleeping Zs"
 permalink: /datapacks/sleeping-zs
 date: 2022-04-24
 short-description: "Want to make Minecraft a little more cartoony? Add Zs to sleeping players!"
-trailer: "https://youtu.be/2ZUksaQUHWA"
 download: "/downloads/datapacks/Sleeping Zs.zip"
+trailer: "https://youtu.be/2ZUksaQUHWA"
+tags: ["Aesthetic"]
+java-version: "1.13+"
 version: 1.0.1
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.13+*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 

@@ -4,13 +4,15 @@ title: "Landmines"
 permalink: /datapacks/landmines
 date: 2022-06-12
 short-description: "Want fun new ways to set traps for your friends, or even mobs? One word. Landmines."
-trailer: "https://youtu.be/IU7CHmgjh6U"
-version: 1.1.0
 download: "/downloads/datapacks/Landmines.zip"
+trailer: "https://youtu.be/IU7CHmgjh6U"
+tags: ["Item"]
+java-version: "1.19"
+version: 1.1.0
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.19*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 

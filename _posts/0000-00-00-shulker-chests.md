@@ -4,13 +4,15 @@ title: "Shulker Chests"
 permalink: /datapacks/shulker-chests
 date: 2022-06-27
 short-description: "Want to easily move your chests full of items from one location to another? Now you can."
-trailer: "https://youtu.be/JHFn5zKKIMc"
 download: "/downloads/datapacks/Shulker Chests.zip"
+trailer: "https://youtu.be/JHFn5zKKIMc"
+tags: ["Game Mechanic"]
+java-version: "1.17+"
 version: 2.2.0
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.17+*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 

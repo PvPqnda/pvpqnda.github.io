@@ -4,13 +4,15 @@ title: "Lockable Containers"
 permalink: /datapacks/lockable-containers
 date: 2021-11-19
 short-description: "Lock your chests to any password so your foes can't steal your items!"
-trailer: "https://youtu.be/6JEHf2ZaerY"
-version: 1.0.0
 download: "/downloads/datapacks/Lockable Containers.zip"
+trailer: "https://youtu.be/6JEHf2ZaerY"
+tags: ["Game Mechanic"]
+java-version: "1.16+"
+version: 1.0.0
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.16+*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 
