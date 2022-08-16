@@ -56,7 +56,7 @@ Created by: PvPqnda
 - Blocks cut by weapons thrown by creative mode players no longer drop items<br>
 - Fixed strong axes sometimes sending player death messages without killing the player<br>
 - Edited the thrown axe death message<br>
-- Added a warning message for when using the datapack in an old unsupported version of Minecraft<br>
+- Added a warning message for when using the datapack in an older unsupported version of Minecraft<br>
 <br>
 <b>v2.0.2</b> - <em>March 3, 2022</em><br>
 <br>
