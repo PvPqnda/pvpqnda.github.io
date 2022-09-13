@@ -11,7 +11,9 @@ layout: default
         <div class="post-heading">
           <h1 style="display: inline-block;">{{ page.title }}</h1>
           <span class="badge banner-text badge-yellow">Datapack {{ page.java-version }}</span>
+          {% if page.patreon %}
           <span class="badge banner-text-follow badge-patreon">Patreon</span>
+          {% endif %}
         
         <span class="meta">{{ page.date | date: '%B %d, %Y' }}&nbsp;
           {% for tag in page.tags %}
@@ -36,7 +38,9 @@ layout: default
           <a href="{{page.patreon}}" class="btn btn-success patreonbtn {% if page.bedrock %}float-right{% endif %}"><i
             class="fa fa-download"></i> Get it on Patreon</a>
           {% endif %}
-          <a href="{{page.download}}" class="btn btn-success downloadbtn"><i class="fa fa-download"></i> Download</a>
+          {% if page.download %}
+          <a href="{{page.download}}" class="btn btn-success downloadbtn"><i class="fa fa-download"></i> {% if page.patreon %}Get older version{% else %}Download{% endif %}</a>
+          {% endif %}
         </div>
         <hr>
       </div>
@@ -60,10 +64,10 @@ To install a datapack, drop the datapack file inside the "datapacks" folder insi
             class="col-sm-4 mappic">
             <img class="playBtn" src="{{site.baseurl}}/img/playbtn.svg" />
             {% else %}
-            <a href="{{site.baseurl}}/img/{{page.permalink}}/thumbnail.jpg" data-width="1280" data-toggle="lightbox"
+            <a href="{{site.baseurl}}/img/{{page.permalink}}/thumbnail.png" data-width="1280" data-toggle="lightbox"
               data-gallery="example-gallery" class="col-sm-4 mappic">
               {% endif %}
-              <img src="{{site.baseurl}}/img/{{page.permalink}}/thumbnail.jpg" class="img-fluid">
+              <img src="{{site.baseurl}}/img/{{page.permalink}}/thumbnail.png" class="img-fluid">
             </a>
             <a href="{{site.baseurl}}/img/{{page.permalink}}/pic_0.jpg" data-toggle="lightbox"
               data-gallery="example-gallery" class="col-sm-4 mappic">

@@ -2,19 +2,17 @@
 layout: datapack
 title: "Security Cameras"
 permalink: /datapacks/security-cameras
-date: 2022-06-12
+date: 2022-08-19
 short-description: "Want to go on adventures but check on your base? Get security cameras."
 download: "/downloads/datapacks/Security Cameras.zip"
 patreon: "https://www.patreon.com/pvpqnda"
 trailer: "https://youtu.be/1z1ojLY2aiA"
 tags: ["Item"]
 java-version: "1.16+"
-version: 1.1.0
+version: 2.0.0
 ---
 Created by: PvPqnda
 -
-Inspired by ~ FloBubz ~
-
 *For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
@@ -53,6 +51,12 @@ This is to prevent anyone from attempting to defy risky situations.
 
 <div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
       <div class="card-body">
+<b>v2.0.0</b> - <em>? ?, 2022</em><br>
+<br>
+- <br>
+- <br>
+- <br>
+<br>
 <b>v1.1.0</b> - <em>June 12, 2022</em><br>
 <br>
 - Now supports blocks from Minecraft versions 1.17 - 1.19<br>

@@ -11,7 +11,9 @@ layout: default
         <div class="post-heading">
             <h1 style="display: inline-block;">{{ page.title }}</h1>
             <span class="badge banner-text badge-green">Map {{ page.java-version }}</span>
+            {% if page.patreon %}
             <span class="badge banner-text-follow badge-patreon">Patreon</span>
+            {% endif %}
           
           <span class="meta">{{ page.date | date: '%B %d, %Y' }}&nbsp;
             {% for tag in page.tags %}
@@ -43,18 +45,16 @@ layout: default
           {% endif %}
           
           {% if page.bedrock %}
-          <a href="{{page.bedrock}}" class="btn btn-success downloadbtn"><i class="fa fa-download"></i> Get it for
-            Bedrock</a>
+          <a href="{{page.bedrock}}" class="btn btn-success downloadbtn"><i class="fa fa-download"></i> Get it for Bedrock</a>
           {% endif %}
 
           {% if page.java %}
           <a href="{{page.java}}" class="btn btn-success downloadbtn {% if page.bedrock %}float-right{% endif %}"><i
-              class="fa fa-download"></i> Get it for
-            Java</a>
+              class="fa fa-download"></i> {% if page.patreon %}Get older version{% else %}Get it for Java{% endif %}</a>
 
           {% if page.java-rp %}
           <a href="{{page.java-rp}}" class="btn btn-success downloadbtn"><i
-              class="fa fa-download"></i> Get Resource Pack</a>
+              class="fa fa-download"></i> {% if page.patreon %}Get older Resource Pack{% else %}Get Resource Pack{% endif %}</a>
           {% endif %}
           {% endif %}
         </div>
@@ -76,10 +76,10 @@ layout: default
             class="col-sm-4 mappic">
             <img class="playBtn" src="{{site.baseurl}}/img/playbtn.svg" />
             {% else %}
-            <a href="{{site.baseurl}}/img/{{page.permalink}}/thumbnail.jpg" data-width="1280" data-toggle="lightbox"
+            <a href="{{site.baseurl}}/img/{{page.permalink}}/thumbnail.png" data-width="1280" data-toggle="lightbox"
               data-gallery="example-gallery" class="col-sm-4 mappic">
               {% endif %}
-              <img src="{{site.baseurl}}/img/{{page.permalink}}/thumbnail.jpg" class="img-fluid">
+              <img src="{{site.baseurl}}/img/{{page.permalink}}/thumbnail.png" class="img-fluid">
             </a>
             <a href="{{site.baseurl}}/img/{{page.permalink}}/pic_0.jpg" data-toggle="lightbox"
               data-gallery="example-gallery" class="col-sm-4 mappic">

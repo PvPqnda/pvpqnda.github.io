@@ -8,7 +8,7 @@ background: '/img/bg-map.jpg'
     {% for post in paginator.posts %}
     {% if post.layout == 'map' %}
     <div class="card mapcard" onclick="location.href='{{ post.url | prepend: site.baseurl | replace: '//', '/' }}';">
-      <img class="card-img-top" src="{{site.baseurl}}/img/{{post.permalink}}/thumbnail.jpg" alt="Card image cap">
+      <img class="card-img-top" src="{{site.baseurl}}/img/{{post.permalink}}/thumbnail.png" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title">{{ post.title }}</h4>
         {% if post.layout == 'map' %}

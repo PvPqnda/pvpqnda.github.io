@@ -51,7 +51,7 @@ Created by: PvPqnda
       <div class="card-body">
 <b>v2.2.0</b> - <em>June 27, 2022</em><br>
 <br>
-- Containers no longer retain other filled containers inside when mined, preventing infinite storage within a single container<br>
+- Containers no longer retain other filled containers inside when mined; preventing infinite storage within a single container<br>
 - Added a setting to enable containers retaining other filled containers inside when mined in the Admin Info page<br>
 - Fixed the "Mini Chests" container category setting being visible in the Admin Info page in vanilla 1.19<br>
 <br>
