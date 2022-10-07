@@ -5,12 +5,13 @@ date: 2022-06-13
 permalink: /maps/underwater-mob-arena
 short-description: "Underwater Mob Arena is a PvE minigame with 20 waves of mobs to defeat alone, or with friends!"
 java: "/downloads/maps/Underwater Mob Arena v1.1.2.zip"
+tags: ["Minigame","PvE","1+ Players"]
 java-version: "1.19"
 version: 1.1.2
 ---
 Created by: PvPqnda & asluup
 -
-*For Minecraft 1.19*
+*For Minecraft {{page.java-version}}*
 
 **Map Description:**
 
@@ -29,36 +30,45 @@ In between waves, you can use coins, which are obtained by killing enemies, to p
 "Most gamers are familiar with arena combat, where you defeat mobs one after the other in an enclosed area, attempting to survive until the very end. Underwater Mob Arena takes that concept to new depths as you complete wave after wave of aquatic combat. Defeating enemies will let you purchase upgrades to weapons, armor, or even powerful items with special abilities, such as sucking in nearby mobs or blowing your foes sky high."
 
 *Also available on Minecraft Realms!*
-<hr>
-**Changelog:**
 
-**v1.1.2** - *June 13, 2022*
+<div id="accordion">
+  <div class="card">
+        <button class="card-header mb-0 btn btn-link text-decoration-none" data-toggle="collapse" data-target="#changelog" aria-expanded="false" aria-controls="changelog" id="changelogBtn">
+           Changelog
+        </button>
+</div>
 
-- Updated to Minecraft 1.19
-- Fixed advancement "Game On" not being granted
-
-**v1.1.1** - *December 4, 2021*
-
-- Updated to Minecraft 1.18
-- Fixed bug not giving Underwater Mines back to players who attempt placing it in a position that it is unable to be placed in
-- Fixed Easter Egg advancement being granted to players upon joining the map for the first time
-
-
-**v1.1.0** - *June 21, 2021*
-
-- Updated to Minecraft 1.17
-- Added axolotls to the shop to help aid players in battle
-- Performance improvements
-
-**v1.0.2** - *May 16, 2021*
-
-- Updated to Minecraft 1.16.5
-- Tank Drowned mobs now drop 3 coins instead of 1
-- Replaced the "Defeat the mighty Elder Guardian" advancement with "Defeat a Tank Drowned"
-- Renamed the "Team Player" advancement to "Immortal" and made the advancement be granted to those who use the totem of undying normally, as well as reviving a dead teammate so the advancement is obtainable with 1 player
-- Fixed bug causing players to no longer have their perk's potion effect applied after dying and respawning
-- Fixed bug not removing placed underwater mines after a game ends
-- Changed the iron sword and iron helmet at the "Enchant Weapon/Armor" pillars in the shop to the golden variants
-- Fixed inconsistencies with signs
-- The sidebar kill counter now resets once all players are logged off
-- Performance improvements
+<div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
+      <div class="card-body">
+<b>v1.1.2</b> - <em>June 13, 2022</em><br>
+<br>
+- Updated to Minecraft 1.19<br>
+- Fixed advancement "Game On" not being granted<br>
+<br>
+<b>v1.1.1</b> - <em>December 4, 2021</em><br>
+<br>
+- Updated to Minecraft 1.18<br>
+- Fixed bug not giving Underwater Mines back to players who attempt placing it in a position that it is unable to be placed in<br>
+- Fixed Easter Egg advancement being granted to players upon joining the map for the first time<br>
+<br>
+<b>v1.1.0</b> - <em>June 21, 2021</em><br>
+<br>
+- Updated to Minecraft 1.17<br>
+- Added axolotls to the shop to help aid players in battle<br>
+- Performance improvements<br>
+<br>
+<b>v1.0.2</b> - <em>May 16, 2021</em><br>
+<br>
+- Updated to Minecraft 1.16.5<br>
+- Tank Drowned mobs now drop 3 coins instead of 1<br>
+- Replaced the "Defeat the mighty Elder Guardian" advancement with "Defeat a Tank Drowned"<br>
+- Renamed the "Team Player" advancement to "Immortal" and made the advancement be granted to those who use the totem of undying normally, as well as reviving a dead teammate so the advancement is obtainable with 1 player<br>
+- Fixed bug causing players to no longer have their perk's potion effect applied after dying and respawning<br>
+- Fixed bug not removing placed underwater mines after a game ends<br>
+- Changed the iron sword and iron helmet at the "Enchant Weapon/Armor" pillars in the shop to the golden variants<br>
+- Fixed inconsistencies with signs<br>
+- The sidebar kill counter now resets once all players are logged off<br>
+- Performance improvements<br>
+      </div>
+    </div>
+  </div>

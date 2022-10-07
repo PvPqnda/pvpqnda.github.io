@@ -4,16 +4,25 @@ title: Datapacks
 background: '/img/bg-map.jpg'
 ---
 <div class="container">
-New datapacks are posted on Fridays!
+More datapacks coming soon!
 <hr>
 <div class="container-fluid">
   <div class="card-deck" style="justify-content: center;">
     {% for post in site.posts %}
     {% if post.layout == 'datapack' %}
     <div class="card mapcard" onclick="location.href='{{ post.url | prepend: site.baseurl | replace: '//', '/' }}';">
-      <img class="card-img-top" src="{{site.baseurl}}/img/{{post.permalink}}/thumbnail.jpg" alt="Card image cap">
+      <img class="card-img-top" src="{{site.baseurl}}/img/{{post.permalink}}/thumbnail.png" alt="Card image cap">
       <div class="card-body">
         <h4 class="card-title">{{ post.title }}</h4>
+        {% if post.layout == 'datapack' %}
+          <span class="badge badge-yellow">{{ post.layout | capitalize }} {{post.java-version}}</span>
+        {% endif %}
+        {% if post.patreon %}
+          <span class="badge badge-patreon">Patreon</span>
+        {% endif %}
+        {% for tag in post.tags %}
+          <span class="badge badge-secondary">{{ tag }}</span>
+        {% endfor %}
         <p class="card-text">{{post.short-description}}</p>
         <p class="post-meta"> {% if post.version %}v{{post.version}} - {% endif %}{{ post.date | date: '%B %d, %Y' }}
         </p>

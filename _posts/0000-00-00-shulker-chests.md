@@ -4,13 +4,15 @@ title: "Shulker Chests"
 permalink: /datapacks/shulker-chests
 date: 2022-06-27
 short-description: "Want to easily move your chests full of items from one location to another? Now you can."
-trailer: "https://youtu.be/JHFn5zKKIMc"
-version: 2.2.0
 download: "/downloads/datapacks/Shulker Chests.zip"
+trailer: "https://youtu.be/JHFn5zKKIMc"
+tags: ["Game Mechanic"]
+java-version: "1.17+"
+version: 2.2.0
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.17+*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 
@@ -37,35 +39,45 @@ Created by: PvPqnda
 - Admins may type "/function shulkerchests:admin_info" to toggle individual categories of containers, or whether or not silk touch is required!
 
 *Survival & Multiplayer friendly*
-<hr>
-**Changelog:**
 
-**v2.2.0** - *June 27, 2022*
+<div id="accordion">
+  <div class="card">
+        <button class="card-header mb-0 btn btn-link text-decoration-none" data-toggle="collapse" data-target="#changelog" aria-expanded="false" aria-controls="changelog" id="changelogBtn">
+           Changelog
+        </button>
+</div>
 
-- Containers no longer retain other filled containers inside when mined, preventing infinite storage within a single container
-- Added a setting to enable containers retaining other filled containers inside when mined in the Admin Info page
-- Fixed the "Mini Chests" container category setting being visible in the Admin Info page in vanilla 1.19
-
-**v2.1.1** - *May 27, 2022*
-
-Fixed Dupe Glitches:
-- Filled containers inside of a container dropping despite being retained from being mined
-- Filled containers dropping after no longer being there due to time passing with the datapack disabled then re-enabled
-
-**v2.1.0** - *April 18, 2022*
-
-- Silk Touch is now required for containers to retain their items when mined
-- Added a setting to disable the Silk Touch Requirement in the Admin Info page
-
-**v2.0.0** - *April 2, 2022*
-
-- Now supports the Expanded Storage mod v7.3.11 for both Forge and the Fabric Loader
-- Filled containers will display contents in text like shulker boxes when hovered over in an inventory
-- Multiple filled containers with identical contents will no longer stack
-- Added an admin info page to toggle individual categories of containers
-- Performance improvements
-
-**v1.0.1** - *September 25, 2021*
-
-- No longer supports Minecraft versions under 1.17
-- Performance improvements
+<div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
+      <div class="card-body">
+<b>v2.2.0</b> - <em>June 27, 2022</em><br>
+<br>
+- Containers no longer retain other filled containers inside when mined; preventing infinite storage within a single container<br>
+- Added a setting to enable containers retaining other filled containers inside when mined in the Admin Info page<br>
+- Fixed the "Mini Chests" container category setting being visible in the Admin Info page in vanilla 1.19<br>
+<br>
+<b>v2.1.1</b> - <em>May 27, 2022</em><br>
+<br>
+Fixed Dupe Glitches:<br>
+- Filled containers inside of a container dropping despite being retained from being mined<br>
+- Filled containers dropping after no longer being there due to time passing with the datapack disabled then re-enabled<br>
+<br>
+<b>v2.1.0</b> - <em>April 18, 2022</em><br>
+<br>
+- Silk Touch is now required for containers to retain their items when mined<br>
+- Added a setting to disable the Silk Touch Requirement in the Admin Info page<br>
+<br>
+<b>v2.0.0</b> - <em>April 2, 2022</em><br>
+<br>
+- Now supports the Expanded Storage mod v7.3.11 for both Forge and the Fabric Loader<br>
+- Filled containers will display contents in text like shulker boxes when hovered over in an inventory<br>
+- Multiple filled containers with identical contents will no longer stack<br>
+- Added an admin info page to toggle individual categories of containers<br>
+- Performance improvements<br>
+<br>
+<b>v1.0.1</b> - <em>September 25, 2021</em><br>
+<br>
+- No longer supports Minecraft versions under 1.17<br>
+- Performance improvements<br>
+      </div>
+    </div>
+  </div>

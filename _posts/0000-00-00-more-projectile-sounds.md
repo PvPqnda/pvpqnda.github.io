@@ -4,13 +4,15 @@ title: "More Projectile Sounds"
 permalink: /datapacks/more-projectile-sounds
 date: 2022-03-25
 short-description: "Add some aesthetic sounds to your throwables when they land!"
-trailer: "https://youtu.be/RHqeGQpZwtw"
-version: 1.0.0
 download: "/downloads/datapacks/More Projectile Sounds.zip"
+trailer: "https://youtu.be/RHqeGQpZwtw"
+tags: ["Aesthetic"]
+java-version: ["1.17+"]
+version: 1.0.0
 ---
 Created by: PvPqnda
 -
-*For Minecraft 1.17+*
+*For Minecraft {{page.java-version}}*
 
 **Datapack Features:**
 

@@ -9,7 +9,7 @@
         <ul class="list-inline text-center">
           {% if site.email %}
           <li class="list-inline-item">
-            <a href="mailto:{{ site.email | encode_email }}">
+            <a target=”_blank” href="mailto:{{ site.email | encode_email }}">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
@@ -19,7 +19,7 @@
           {% endif %}
           {% if site.twitter_username %}
           <li class="list-inline-item">
-            <a href="https://twitter.com/{{ site.twitter_username }}">
+            <a target=”_blank” href="https://twitter.com/{{ site.twitter_username }}">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
@@ -29,7 +29,7 @@
           {% endif %}
           {% if site.discord_group %}
           <li class="list-inline-item">
-            <a href="https://discord.gg/{{ site.discord_group }}">
+            <a target=”_blank” href="https://discord.gg/{{ site.discord_group }}">
               <span class="fa-stack fa-lg">
                 <i class="fas fa-circle fa-stack-2x"></i>
                 <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
@@ -37,8 +37,18 @@
             </a>
           </li>
           {% endif %}
+          {% if site.patreon_url %}
+          <li class="list-inline-item">
+            <a target=”_blank” href="{{ site.patreon_url }}">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-patreon fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
-        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+        <p class="copyright text-muted">&copy; {{ site.author }} {{ 'now' | date: "%Y" }}. All rights reserved.</p>
       </div>
     </div>
   </div>
