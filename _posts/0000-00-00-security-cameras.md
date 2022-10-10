@@ -22,7 +22,7 @@ Created by: PvPqnda
    * Craft security cameras by dropping any same number of iron ingots, glass panes,
       and redstone torches on the ground!
 
-   * Placing a security camera on the underneath a block will face it towards you and
+   * Placing a security camera underneath a block will face it towards you and
       generate a number ID linked to the camera which is what you use to view the
       camera!
 
