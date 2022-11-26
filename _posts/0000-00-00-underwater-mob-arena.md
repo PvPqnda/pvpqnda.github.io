@@ -45,19 +45,19 @@ In between waves, you can use coins, which are obtained by killing enemies, to p
 - Updated to Minecraft 1.19<br>
 - Fixed advancement "Game On" not being granted<br>
 <br>
-<b>v1.1.1</b> - <em>December 4, 2021</em><br>
+<b>v1.1.1</b> - <em>December 4, 2021</em> - <a style="text-decoration: underline;" href="/downloads/maps/old/Underwater Mob Arena v1.1.1.zip" download>Download</a><br>
 <br>
 - Updated to Minecraft 1.18<br>
 - Fixed bug not giving Underwater Mines back to players who attempt placing it in a position that it is unable to be placed in<br>
 - Fixed Easter Egg advancement being granted to players upon joining the map for the first time<br>
 <br>
-<b>v1.1.0</b> - <em>June 21, 2021</em><br>
+<b>v1.1.0</b> - <em>June 21, 2021</em> - <a style="text-decoration: underline;" href="/downloads/maps/old/Underwater Mob Arena v1.1.0.zip" download>Download</a><br>
 <br>
 - Updated to Minecraft 1.17<br>
 - Added axolotls to the shop to help aid players in battle<br>
 - Performance improvements<br>
 <br>
-<b>v1.0.2</b> - <em>May 16, 2021</em><br>
+<b>v1.0.2</b> - <em>May 16, 2021</em> - <a style="text-decoration: underline;" href="/downloads/maps/old/Underwater Mob Arena v1.0.2.zip" download>Download</a><br>
 <br>
 - Updated to Minecraft 1.16.5<br>
 - Tank Drowned mobs now drop 3 coins instead of 1<br>

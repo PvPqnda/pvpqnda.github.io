@@ -4,7 +4,7 @@ title: "Security Cameras"
 permalink: /datapacks/security-cameras
 date: 2022-10-07
 short-description: "Want to go on adventures but check on your base? Get security cameras."
-download: "/downloads/datapacks/Security Cameras.zip"
+download: "/downloads/datapacks/old/Security Cameras v1.1.0.zip"
 patreon: "https://www.patreon.com/pvpqnda"
 trailer: "https://youtu.be/ojSIsmHMZVk"
 tags: ["Item"]
@@ -141,7 +141,7 @@ Created by: PvPqnda
 - Performance improvements<br>
 - Added a datapack icon<br>
 <br>
-<b>v1.1.0</b> - <em>June 12, 2022</em><br>
+<b>v1.1.0</b> - <em>June 12, 2022</em> - <a style="text-decoration: underline;" href="/downloads/datapacks/old/Security Cameras v1.1.0.zip" download>Download</a><br>
 <br>
 - Now supports blocks from Minecraft versions 1.17 - 1.19<br>
 - Multiple security cameras can be crafted at once by dropping the same number of ingredients<br>
