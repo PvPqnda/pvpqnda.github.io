@@ -20,7 +20,7 @@ Created by: PvPqnda
 
    * Allows you to trim armor with the same material the armor is made out of!
 
-   * Adedd Materials:
+   * Added Materials:
       * Sculk      (Echo Shard)
       * Lava       (Lava Bucket)
       * Coal       (Coal)
