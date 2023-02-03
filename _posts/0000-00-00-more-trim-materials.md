@@ -3,7 +3,7 @@ layout: datapack
 title: "More Trim Materials"
 permalink: /datapacks/more-trim-materials
 date: 2023-02-03
-short-description: "More options to decorate your armor with!"
+short-description: "More options to decorate your armor with!<br>(And optional buffs alongside them)"
 download: "/downloads/datapacks/More Trim Materials DP.zip"
 download-rp: "/downloads/datapacks/More Trim Materials RP.zip"
 tags: ["Cosmetic","Game Mechanic"]
