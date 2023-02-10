@@ -2,13 +2,13 @@
 layout: datapack
 title: "More Projectile Sounds"
 permalink: /datapacks/more-projectile-sounds
-date: 2022-03-25
+date: 2023-02-10
 short-description: "Add some aesthetic sounds to your throwables when they land!"
 download: "/downloads/datapacks/More Projectile Sounds.zip"
 trailer: "https://youtu.be/RHqeGQpZwtw"
 tags: ["Aesthetic"]
 java-version: ["1.17+"]
-version: 1.0.0
+version: 1.1.0
 ---
 Created by: PvPqnda
 -
