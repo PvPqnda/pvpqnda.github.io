@@ -26,3 +26,19 @@ Created by: PvPqnda
 "/function moreprojectilesounds:toggle/ender_pearls"
 
 *Survival & Multiplayer friendly*
+
+<div id="accordion">
+  <div class="card">
+        <button class="card-header mb-0 btn btn-link text-decoration-none" data-toggle="collapse" data-target="#changelog" aria-expanded="false" aria-controls="changelog" id="changelogBtn">
+           Changelog
+        </button>
+</div>
+
+<div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
+      <div class="card-body">
+<b>v1.1.0</b> - <em>February 10, 2023</em><br>
+<br>
+- Added 1.19.4+ support<br>
+      </div>
+    </div>
+  </div>
