@@ -7,7 +7,7 @@ short-description: "More options to decorate your armor with!<br>(And optional b
 download: "/downloads/datapacks/More Trim Materials DP.zip"
 download-rp: "/downloads/datapacks/More Trim Materials RP.zip"
 tags: ["Cosmetic","Game Mechanic"]
-java-version: "23w05a"
+java-version: "23w05a+"
 version: 2.0.0
 ---
 Created by: PvPqnda
