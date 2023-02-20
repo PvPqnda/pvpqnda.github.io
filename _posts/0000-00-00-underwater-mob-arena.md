@@ -1,13 +1,13 @@
 ---
 layout: map
 title: "Underwater Mob Arena"
-date: 2022-06-13
+date: 2023-02-20
 permalink: /maps/underwater-mob-arena
 short-description: "Underwater Mob Arena is a PvE minigame with 20 waves of mobs to defeat alone, or with friends!"
-java: "/downloads/maps/Underwater Mob Arena v1.1.2.zip"
+java: "/downloads/maps/Underwater Mob Arena v1.1.4.zip"
 tags: ["PvE Minigame","1+ Players"]
-java-version: "1.19"
-version: 1.1.2
+java-version: "1.19.3"
+version: 1.1.4
 ---
 Created by: PvPqnda & asluup
 -
@@ -40,7 +40,17 @@ In between waves, you can use coins, which are obtained by killing enemies, to p
 
 <div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
       <div class="card-body">
-<b>v1.1.2</b> - <em>June 13, 2022</em><br>
+<b>v1.1.4</b> - <em>February 20, 2023</em><br>
+<br>
+- Enabled vanilla pack and made use of pack filters<br>
+- Added a message for players who complete the map in under an hour, suggesting to submit a speedrun<br>
+<br>
+<b>v1.1.3</b> - <em>February 20, 2023</em><br>
+<br>
+- Updated to Minecraft 1.19.3<br>
+- Replaced PvPqnda's Twitter link with Patreon<br>
+<br>
+<b>v1.1.2</b> - <em>June 13, 2022</em> - <a style="text-decoration: underline;" href="/downloads/maps/old/Underwater Mob Arena v1.1.2.zip" download>Download</a><br>
 <br>
 - Updated to Minecraft 1.19<br>
 - Fixed advancement "Game On" not being granted<br>
