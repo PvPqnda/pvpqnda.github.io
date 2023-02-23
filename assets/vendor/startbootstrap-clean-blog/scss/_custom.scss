@@ -2,6 +2,7 @@
 	max-height: 60vh;
 	width: 100%;
 	object-fit: cover;
+	background-color: black;
 }
 
 #logo {
@@ -9,39 +10,9 @@
     min-height: 70px;
 }
 
-.badge {
-    font-style: normal;
-}
-
-.banner-text {
-	margin-left: 8px;
-    top: -5px;
-    position: relative;
-}
-
-.banner-text-follow {
-    top: -5px;
-    position: relative;
-}
-
-.badge-green {
-	background-color:#08a600;
-	color:white;
-}
-
-.badge-yellow {
-	background-color:#edb200;
-	color:white;
-}
-
-.badge-version {
-	background-color:#ba0000;
-	color:white;
-}
-
-.badge-patreon {
-	background-color:#f76754;
-	color:white;
+.smooth-width {
+	flex-grow: 1;
+	transition: all 0.7s ease !important;
 }
 
 .image-container {
@@ -57,6 +28,10 @@
 
 .card {
 	transition: transform .2s;
+}
+
+.badge {
+	font-style: normal;
 }
 
 .card:hover {
@@ -99,12 +74,7 @@ div.row > div > div.row {
 }
 
 .downloadbtn {
-	margin: 10px;
-	width: 235px;
-}
-
-.downloadbtn:focus {
-	color: $white !important;
+	min-width: 215px;
 }
 
 // RANK
@@ -133,16 +103,6 @@ div.row > div > div.row {
 	color:#FF55FF;
 }
 
-@media only screen and (min-width: 1200px) {
-	.downloadbtn {
-		width: 295px;
-	}
-
-	.patreonbtn {
-		width: 295px !important;
-	}
-}
-
 .mapcard {
 	min-width: 25rem; 
 	max-width: 40rem; 
@@ -150,10 +110,10 @@ div.row > div > div.row {
 }
 
 .speedrunpanel {
-	border: 1px solid lightgray;
+	box-shadow: 0 10px 25px -1px lightgray;
 	padding: 2rem;
 	text-align: center;
-	display: table;
+	white-space: nowrap;
 }
 
 #record {
@@ -178,13 +138,9 @@ div.row > div > div.row {
 	text-decoration: underline;
 }
 
-#speedrun_discord {
-	display: table-footer-group;
-}
-
 @media only screen and (max-width: 575px) {
     .mappic {
-      margin: 10px;
+    	margin: 10px;
 	}
 
 	.javabtn {
@@ -192,28 +148,50 @@ div.row > div > div.row {
 	}
 
     div.row > div > div.row {
-    margin-bottom: 0px;
+    	margin-bottom: 0px;
     }
 
     .mapcard {
-	min-width: 15rem; 
-	margin: 0.5rem !important;
+		min-width: 15rem; 
+		margin: 0.5rem !important;
 	}
 
 	.downloadbtn {
 		float:none !important;
+		min-width: 90%;
+		margin: 5px;
 	}
 
-	.patreonbtn {
-		float:none !important;
+	#javaModal .btn{
+		margin: 5px;
+		min-width: 225px;
+	}
+
+
+}
+
+@media only screen and (max-width: 991px) {
+	.speedrun-buffer1{
+		display: none;
 	}
 }
 
-#changelogBtn {
-    font-size: 16px;
-    color: #969696;
-    letter-spacing: 5px;
-    font-weight: 650;
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	.speedrunpanel {
+		padding:1rem;
+		line-height: 25px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.downloadbtn {
+		width: 295px;
+	}
+
+	.speedrunpanel {
+		margin-right: -30px;
+		margin-left: 30px;
+	}
 }
 
 .patreonbtn {

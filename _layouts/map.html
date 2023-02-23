@@ -31,10 +31,10 @@ layout: default
 <div class="container">
   <div class="row">
     {% if page.speedrunnable %}
-    <div class="col-lg-7 col-md-10 mx-auto">
-      {% else %}
-      <div class="col-lg-8 col-md-10 mx-auto">
-        {% endif %}
+    <div class="col-lg-2 speedrun-buffer1 smooth-width"></div>
+    {% endif %}
+
+    <div class="col-lg-8 col-md-10 mx-auto mainpanel smooth-width" id="sp-row-size">
         {{ content }}
 
         <hr>
@@ -60,6 +60,34 @@ layout: default
         </div>
         <hr>
       </div>
+      {% if page.speedrunnable %}
+      <div class="col-lg-2 col-md-10 mx-auto smooth-width speedrun-buffer2">
+        <div class="speedrunpanel speedrun-section animate__animated animate__zoomIn" style="display:none;">
+          <h2>Fastest Time</h2>
+          <p id="record"></p>
+          <span id="record_hms"></span>
+          <a class="btn btn-sm btn-outline-danger" id="record_link"
+            style="display:none; margin-top: -20px; padding: .25rem .5rem;">Submit one yourself!</a><br>
+          <div id="author_info">
+            <span id="record_author"></span><a target="_blank" id="record_author_name"></a>
+          </div>
+          <br>
+          <div id="compete">
+            <span>Want to compete?</span><br>
+            <a class="btn btn-sm btn-secondary text-center" id="record_link_2" style="padding: .25rem .5rem;">Submit
+              a run</a>
+            <br>
+            <br>
+          </div>
+          <div id="speedrun_discord">
+            <span>Or join the Discord!</span>
+            <br>
+            <a href="https://discord.gg/{{ site.discord }}" target="_blank" class="discordLink"><i
+                class="fab fa-discord fa-3x mt-2"></i></a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
   <br>

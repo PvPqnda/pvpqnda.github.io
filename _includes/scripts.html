@@ -1,12 +1,12 @@
-<script src="{{"/assets/vendor/jquery/jquery.min.js" | relative_url }}"></script>
-<script src="{{"/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" | relative_url }}"></script>
-<script src="{{"/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js" | relative_url }}"></script>
-<script src="{{"/assets/vendor/lightbox/js/ekko-lightbox.min.js" | relative_url }}"></script>
-<script src="{{"/assets/scripts.js" | relative_url }}"></script>
+<script src="{{" /assets/vendor/jquery/jquery.min.js" | relative_url }}"></script>
+<script src="{{" /assets/vendor/bootstrap/js/bootstrap.bundle.min.js" | relative_url }}"></script>
+<script src="{{" /assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js" | relative_url }}"></script>
+<script src="{{" /assets/vendor/lightbox/js/ekko-lightbox.min.js" | relative_url }}"></script>
+<script src="{{" /assets/scripts.js" | relative_url }}"></script>
 
 {% if page.url contains 'contact' %}
 <!-- Form Validation -->
-<script src="{{"/assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script>
+<script src="{{" /assets/vendor/startbootstrap-clean-blog/js/jqBootstrapValidation.js" | relative_url }}"></script>
 <!-- Send Form -->
 <script>
   $(function () {
@@ -88,7 +88,9 @@
 {% if page.layout == 'map' and page.speedrunnable %}
 <script>
   // SPEEDRUN SCRIPT 
+
   $(function () {
+
     var pagetitle = "{{page.title}}";
 
     //Get all maps
@@ -125,12 +127,12 @@
                   var link = result.data[0].weblink
                   $('#record_link_2').attr("href", link);
 
-                  //Version variable id = r8ro7y78
-                  var version = fastest.run.values.r8ro7y78;
+                  //Version variable id = ylqoemm8
+                  var version = fastest.run.values.ylqoemm8;
 
-                  //Current version id = klr06wwl
+                  //Current version id = 12v62y4q
                   //If run is for current version of map
-                  if (version === "klr06wwl") {
+                  if (version === "12v62y4q") {
 
                     //Get player info
                     var playerurl = fastest.run.players[0].uri;
@@ -190,7 +192,14 @@
   }
 
   function onFinish() {
-    $('.speedrunpanel').css('visibility','visible').hide().fadeIn("slow");
+
+    $('.speedrun-buffer1').removeClass("col-lg-2")
+    $('.speedrun-buffer1').addClass("col-lg-0")
+
+    $('.speedrun-buffer2').removeClass("col-lg-2")
+    $('.speedrun-buffer2').addClass("col-lg-4")
+
+    $('.speedrun-section').delay(200).show();
   }
 </script>
 {% endif %}

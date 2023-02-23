@@ -8,6 +8,11 @@ java: "/downloads/maps/Underwater Mob Arena v1.1.2.zip"
 tags: ["Minigame","PvE","1+ Players"]
 java-version: "1.19"
 version: 1.1.2
+java: "/downloads/maps/Underwater Mob Arena v1.1.4.zip"
+tags: ["PvE Minigame","1+ Players"]
+java-version: "1.19.3"
+speedrunnable: true
+version: 1.1.4
 ---
 Created by: PvPqnda & asluup
 -
