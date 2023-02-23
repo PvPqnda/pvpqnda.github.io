@@ -2,7 +2,6 @@
 	max-height: 60vh;
 	width: 100%;
 	object-fit: cover;
-	background-color: black;
 }
 
 #logo {
@@ -10,28 +9,19 @@
     min-height: 70px;
 }
 
-.smooth-width {
-	flex-grow: 1;
-	transition: all 0.7s ease !important;
-}
-
-.image-container {
-	display: flex;
-	align-items: center;
-	height: 100%;
-	justify-content: center;
-}
-
-.figure {
-	margin-top: 0.5rem;
-}
-
-.card {
-	transition: transform .2s;
-}
-
 .badge {
-	font-style: normal;
+    font-style: normal;
+}
+
+.banner-text {
+	margin-left: 8px;
+    top: -5px;
+    position: relative;
+}
+
+.banner-text-follow {
+    top: -5px;
+    position: relative;
 }
 
 .badge-green {
@@ -54,10 +44,19 @@
 	color:white;
 }
 
-.banner-text {
-    margin-left: 8px;
-    top: -5px;
-    position: relative;
+.image-container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	justify-content: center;
+}
+
+.figure {
+	margin-top: 0.5rem;
+}
+
+.card {
+	transition: transform .2s;
 }
 
 .card:hover {
@@ -100,7 +99,12 @@ div.row > div > div.row {
 }
 
 .downloadbtn {
-	min-width: 215px;
+	margin: 10px;
+	width: 235px;
+}
+
+.downloadbtn:focus {
+	color: $white !important;
 }
 
 // RANK
@@ -129,6 +133,16 @@ div.row > div > div.row {
 	color:#FF55FF;
 }
 
+@media only screen and (min-width: 1200px) {
+	.downloadbtn {
+		width: 300px;
+	}
+
+	.patreonbtn {
+		width: 300px !important;
+	}
+}
+
 .mapcard {
 	min-width: 25rem; 
 	max-width: 40rem; 
@@ -136,10 +150,10 @@ div.row > div > div.row {
 }
 
 .speedrunpanel {
-	box-shadow: 0 10px 25px -1px lightgray;
+	border: 1px solid lightgray;
 	padding: 2rem;
 	text-align: center;
-	white-space: nowrap;
+	display: table;
 }
 
 #record {
@@ -164,9 +178,13 @@ div.row > div > div.row {
 	text-decoration: underline;
 }
 
+#speedrun_discord {
+	display: table-footer-group;
+}
+
 @media only screen and (max-width: 575px) {
     .mappic {
-    	margin: 10px;
+      margin: 10px;
 	}
 
 	.javabtn {
@@ -174,50 +192,28 @@ div.row > div > div.row {
 	}
 
     div.row > div > div.row {
-    	margin-bottom: 0px;
+    margin-bottom: 0px;
     }
 
     .mapcard {
-		min-width: 15rem; 
-		margin: 0.5rem !important;
+	min-width: 15rem; 
+	margin: 0.5rem !important;
 	}
 
 	.downloadbtn {
 		float:none !important;
-		min-width: 90%;
-		margin: 5px;
 	}
 
-	#javaModal .btn{
-		margin: 5px;
-		min-width: 225px;
-	}
-
-
-}
-
-@media only screen and (max-width: 991px) {
-	.speedrun-buffer1{
-		display: none;
+	.patreonbtn {
+		float:none !important;
 	}
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-	.speedrunpanel {
-		padding:1rem;
-		line-height: 25px;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.downloadbtn {
-		width: 295px;
-	}
-
-	.speedrunpanel {
-		margin-right: -30px;
-		margin-left: 30px;
-	}
+#changelogBtn {
+    font-size: 16px;
+    color: #969696;
+    letter-spacing: 5px;
+    font-weight: 650;
 }
 
 .patreonbtn {
