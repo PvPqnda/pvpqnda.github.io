@@ -1,14 +1,14 @@
 ---
 layout: map
 title: "Arrow Fight"
-date: 2022-06-13
+date: 2023-02-20
 permalink: /maps/arrow-fight
 short-description: "Arrow Fight is a PvP minigame with custom unique arrows with special abilities that you use to shoot at the enemy team to win!"
-java: "/downloads/maps/Arrow Fight WORLD v1.1.4.zip"
-java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.1.4 (Unzip).zip"
-java-version: "1.19"
-tags: ["Minigame","PvP","2+ Players"]
-version: 1.1.4
+java: "/downloads/maps/Arrow Fight WORLD v1.2.1.zip"
+java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.2.1 (Unzip).zip"
+java-version: "1.19.3"
+tags: ["PvP Minigame","2+ Players"]
+version: 1.2.1
 ---
 Created by: PvPqnda & Hielke
 -
@@ -43,17 +43,31 @@ Once all players on their team is dead, the other team wins. However, you are un
 
 <div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
       <div class="card-body">
-<b>v1.1.4</b> - <em>June 13, 2022</em><br>
+<b>v1.2.1</b> - <em>February 20, 2022</em><br>
+<br>
+- Updated to Minecraft 1.19.3<br>
+- Fixed spawnpoints<br>
+- Cleared sidebar of leftover debugging purposes<br>
+<br>
+<b>v1.2.0</b> - <em>August 14, 2022</em><br>
+<br>
+- Updated to Minecraft 1.19.2<br>
+- Enabled vanilla pack and made use of pack filters<br>
+- Visually smoothed out game start animation<br>
+- Made winning players invulnerable before being put back in the lobby<br>
+- Fixed fluids from different maps interacting with each other upon switching<br>
+<br>
+<b>v1.1.4</b> - <em>June 13, 2022</em> - Download: <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight WORLD v1.1.4.zip" download>World</a> <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight RESOURCE PACK v1.1.4 (Unzip).zip" download>RP</a><br>
 <br>
 - Updated to Minecraft 1.19<br>
 - Fixed bug making shops inaccessible for the rest of the whole round after being shot with a lightning arrow<br>
 - Updated skins on creator player models<br>
 <br>
-<b>v1.1.3</b> - <em>December 5, 2021</em><br>
+<b>v1.1.3</b> - <em>December 5, 2021</em> - Download: <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight WORLD v1.1.3.zip" download>World</a> <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight RESOURCE PACK v1.1.3 (Unzip).zip" download>RP</a><br>
 <br>
 - Updated to Minecraft 1.18<br>
 <br>
-<b>v1.1.2</b> - <em>June 21, 2021</em><br>
+<b>v1.1.2</b> - <em>June 21, 2021</em> - Download: <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight WORLD v1.1.2.zip" download>World</a> <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight RESOURCE PACK v1.1.2 (Unzip).zip" download>RP</a><br>
 <br>
 - Updated to Minecraft 1.17<br>
 - Nether portals will now break upon entering<br>
@@ -61,7 +75,7 @@ Once all players on their team is dead, the other team wins. However, you are un
 - Boats and minecarts will now despawn when out of the play area<br>
 - Block Eater Arrows will now also eat falling sand entities in range<br>
 <br>
-<b>v1.1.1</b> - <em>March 6, 2021</em><br>
+<b>v1.1.1</b> - <em>March 6, 2021</em> - Download: <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight WORLD v1.1.1.zip" download>World</a> <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight RESOURCE PACK v1.1.1 (Unzip).zip" download>RP</a><br>
 <br>
 - Updated to Minecraft 1.16.5<br>
 - When a villager shop is shot with a lightning arrow, it now reverts back to its tradable villager form after 10 seconds<br>

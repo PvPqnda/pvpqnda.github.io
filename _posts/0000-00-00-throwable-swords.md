@@ -49,7 +49,7 @@ Created by: PvPqnda
 <br>
 - Significant performance improvements<br>
 <br>
-<b>v2.0.3</b> - <em>June 19, 2022</em><br>
+<b>v2.0.3</b> - <em>June 19, 2022</em> - <a style="text-decoration: underline;" href="/downloads/datapacks/old/Throwable Swords v2.0.3.zip" download>Download</a><br>
 <br>
 - Added support for Minecraft 1.19<br>
 - Mangrove propagules and sculk veins can now be cut by thrown weapons<br>
@@ -58,11 +58,11 @@ Created by: PvPqnda
 - Edited the thrown axe death message<br>
 - Added a warning message for when using the datapack in an older unsupported version of Minecraft<br>
 <br>
-<b>v2.0.2</b> - <em>March 3, 2022</em><br>
+<b>v2.0.2</b> - <em>March 3, 2022</em> - <a style="text-decoration: underline;" href="/downloads/datapacks/old/Throwable Swords v2.0.2.zip" download>Download</a><br>
 <br>
 - Fixed bug duplicating weapons thrown by players in creative mode while setting "Durability" is set to false<br>
 <br>
-<b>v2.0.1</b> - <em>November 30, 2021</em><br>
+<b>v2.0.1</b> - <em>November 30, 2021</em> - <a style="text-decoration: underline;" href="/downloads/datapacks/old/Throwable Swords v2.0.1.zip" download>Download</a><br>
 <br>
 - Removed thrown weapon world height limit to support 1.17 AND 1.18<br>
 - Performance improvements<br>

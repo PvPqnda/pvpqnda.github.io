@@ -39,7 +39,10 @@ layout: default
             class="fa fa-download"></i> Get it on Patreon</a>
           {% endif %}
           {% if page.download %}
-          <a href="{{page.download}}" class="btn btn-success downloadbtn"><i class="fa fa-download"></i> {% if page.patreon %}Get older version{% else %}Download{% endif %}</a>
+          <a href="{{page.download}}" class="btn btn-success downloadbtn"><i class="fa fa-download"></i> {% if page.patreon %}Get older version{% else %}Download{% endif %}{% if page.download-rp %} Datapack{% endif %}</a>
+          {% endif %}
+          {% if page.download-rp %}
+          <a href="{{page.download-rp}}" class="btn btn-success downloadbtn"><i class="fa fa-download"></i> {% if page.patreon %}Get older Resource Pack{% else %}Download Resource Pack{% endif %}</a>
           {% endif %}
         </div>
         <hr>

@@ -2,13 +2,13 @@
 layout: datapack
 title: "More Projectile Sounds"
 permalink: /datapacks/more-projectile-sounds
-date: 2022-03-25
+date: 2023-02-10
 short-description: "Add some aesthetic sounds to your throwables when they land!"
 download: "/downloads/datapacks/More Projectile Sounds.zip"
 trailer: "https://youtu.be/RHqeGQpZwtw"
 tags: ["Aesthetic"]
 java-version: ["1.17+"]
-version: 1.0.0
+version: 1.1.0
 ---
 Created by: PvPqnda
 -
@@ -26,3 +26,19 @@ Created by: PvPqnda
 "/function moreprojectilesounds:toggle/ender_pearls"
 
 *Survival & Multiplayer friendly*
+
+<div id="accordion">
+  <div class="card">
+        <button class="card-header mb-0 btn btn-link text-decoration-none" data-toggle="collapse" data-target="#changelog" aria-expanded="false" aria-controls="changelog" id="changelogBtn">
+           Changelog
+        </button>
+</div>
+
+<div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
+      <div class="card-body">
+<b>v1.1.0</b> - <em>February 10, 2023</em><br>
+<br>
+- Added 1.19.4+ support<br>
+      </div>
+    </div>
+  </div>
