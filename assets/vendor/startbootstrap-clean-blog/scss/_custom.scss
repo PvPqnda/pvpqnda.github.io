@@ -34,6 +34,26 @@
 	font-style: normal;
 }
 
+.badge-green {
+	background-color:#08a600;
+	color:white;
+}
+
+.badge-yellow {
+	background-color:#edb200;
+	color:white;
+}
+
+.badge-version {
+	background-color:#ba0000;
+	color:white;
+}
+
+.badge-patreon {
+	background-color:#f76754;
+	color:white;
+}
+
 .card:hover {
     transition: all 0.3s ease;
     cursor: pointer;
