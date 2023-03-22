@@ -2,13 +2,13 @@
 layout: datapack
 title: "More Trim Materials"
 permalink: /datapacks/more-trim-materials
-date: 2023-02-03
+date: 2023-03-22
 short-description: "More options to decorate your armor with!<br>(And optional buffs alongside them)"
 download: "/downloads/datapacks/More Trim Materials DP.zip"
 download-rp: "/downloads/datapacks/More Trim Materials RP.zip"
 tags: ["Cosmetic","Game Mechanic"]
-java-version: "23w05a+"
-version: 2.0.0
+java-version: "23w12a+"
+version: 2.1.0
 ---
 Created by: PvPqnda
 -
@@ -46,7 +46,7 @@ Created by: PvPqnda
 
 *Survival & Multiplayer friendly*
 
-***The datapack is required in the world, and the resource pack is required for all players***
+**The datapack is required in the world, and the resource pack is required for all players**
 
 <div id="accordion">
   <div class="card">
@@ -57,6 +57,11 @@ Created by: PvPqnda
 
 <div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
       <div class="card-body">
+<b>v2.1.0</b> - <em>March 22, 2023</em><br>
+<br>
+- Updated to Minecraft 23w12a<br>
+- Added support for trim patterns: Silence, Wayfinder, Raiser, Shaper, Host<br>
+<br>
 <b>v2.0.0</b> - <em>February 3, 2023</em><br>
 <br>
 - Added Trim Buffs<br>
