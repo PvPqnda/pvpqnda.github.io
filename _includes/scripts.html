@@ -159,13 +159,23 @@
                     var minutes = Math.floor(totalSeconds / 60);
                     var seconds = totalSeconds % 60;
 
-                    $("#record").html(totalSeconds);
-                    $("#record_hms").html("(");
-                    if (hours > 0) $("#record_hms").append(hours + " hours, ");
-                    $("#record_hms").append(minutes + " minutes");
-                    if (hours > 0) $("#record_hms").append(",");
-                    $("#record_hms").append(" and " + seconds + " seconds");
-                    $("#record_hms").append(")");
+                    if (hours > 0) {
+                      $("#record").append(hours + " hours, ");
+                    }
+
+                    if (minutes > 0) {
+                      $("#record").append(minutes + " minutes");
+                      if (hours > 0) {
+                        $("#record").append(",");
+                      }
+                    }
+
+                    if (seconds > 0) {
+                      if (hours > 0 || minutes > 0) {
+                        $("#record").append(" and ");
+                      }
+                      $("#record").append(seconds + " seconds");
+                    }
                   } else {
                     norun(result);
                   }
