@@ -16,15 +16,37 @@ $(function() {
 	$('[data-toggle="tooltip"]').tooltip()
 })
 
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
 	event.preventDefault();
 	$(this).ekkoLightbox();
 });
 
 //bootstrap hack to make sure you can't scroll the page when any modal is open
 $(document).on('hidden.bs.modal', function () {
-	if($('.modal.show').length)
-	{
-	  $('body').addClass('modal-open');
+	if ($('.modal.show').length) {
+		$('body').addClass('modal-open');
 	}
-  });
+});
+
+
+Fancybox.bind("[data-fancybox]", {
+	wheel: "slide",
+	Thumbs: {
+		type: "classic",
+	},
+	Toolbar: {
+		display: {
+			left: ['close'],
+			middle: [],
+			right: [],
+		},
+	},
+	Images: {
+		initialSize: "fit",
+	},
+
+	Carousel: {
+		transition: "classic",
+		friction: 0,
+	}
+});

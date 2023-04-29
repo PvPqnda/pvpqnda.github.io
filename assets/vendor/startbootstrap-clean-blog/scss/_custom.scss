@@ -235,3 +235,32 @@ div.row > div > div.row {
 	box-shadow: 0 0 0 0.2rem rgba(216, 152, 87, 0.5) !important;
 	border: 0px !important;
   }
+
+
+  // Fancybox custom styling
+
+.fancybox__toolbar {
+    padding: 16px !important;
+}
+
+.fancybox__toolbar,
+.fancybox__nav {
+    --f-button-border-radius: 50% !important;
+    --f-button-bg: rgb(91 78 76 / 64%) !important;
+    --f-button-hover-bg: rgb(91 78 76 / 74%) !important;
+    --f-button-active-bg: rgb(91 78 76 / 84%) !important;
+}
+
+.fancybox__nav {
+    --f-button-svg-width: 22px !important;
+    --f-button-svg-height: 22px !important;
+}
+
+.fancybox__thumbs.is-classic {
+    --f-thumb-width: 160px !important;
+    --f-thumb-height: 90px !important;
+    --f-thumb-gap: 10px !important;
+
+    --f-thumb-border-radius: 6px !important;
+    --f-thumb-outline: 0 !important;
+}
