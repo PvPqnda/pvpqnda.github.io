@@ -2,7 +2,7 @@
 layout: datapack
 title: "Brush for Templates"
 permalink: /datapacks/brush-for-templates
-date: 2023-02-15
+date: 3023-02-15
 short-description: "Make archaeology even more worthwhile!"
 download: "/downloads/datapacks/Brush for Templates.zip"
 tags: ["Game Mechanic"]
