@@ -4,11 +4,19 @@ title: Maps
 background: '/img/bg-map.jpg'
 ---
 <div class="container">
-More maps are to come in the future!
-<hr>
+ 
+  <div class="row mb-3 justify-content-center">
+   
+    <div class="col-md-6 text-center">
+      More maps are to come in the future!
+      <br><br>
+      <input type="text" id="searchInput" class="form-control mx-auto" placeholder="Search maps...">
+    </div>
+  </div>
+</div>
 <div class="container-fluid">
-  <div class="card-deck" style="justify-content: center;">
-    {% for post in paginator.posts %}
+  <div class="card-deck row row-cols-xs-1 row-cols-md-3 row-cols-lg-4" style="justify-content: center;">
+    {% for post in site.posts %}
     {% if post.layout == 'map' %}
     <div class="card mapcard" onclick="location.href='{{ post.url | prepend: site.baseurl | replace: '//', '/' }}';">
       <img class="card-img-top" src="{{site.baseurl}}/img/{{post.permalink}}/thumbnail.png" alt="Card image cap">
@@ -35,24 +43,5 @@ More maps are to come in the future!
 <br>
 If you are going to use one of my maps or datapacks online such as in a YouTube video or on a server, crediting me or linking the map(s) and/or datapack(s) used would be greatly appreciated.
 </div>
-  <!-- Pager -->
-  {% if paginator.total_pages > 1 %}
 
-  <div class="clearfix">
-
-    {% if paginator.previous_page %}
-    <a class="btn btn-primary float-left"
-      href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
-      Newer<span class="d-none d-md-inline"> Maps</span></a>
-    {% endif %}
-
-    {% if paginator.next_page %}
-    <a class="btn btn-primary float-right"
-      href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span
-        class="d-none d-md-inline"> Maps</span> &rarr;</a>
-    {% endif %}
-
-  </div>
-
-  {% endif %}
 </div>
