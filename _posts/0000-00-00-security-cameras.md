@@ -20,7 +20,8 @@ Created by: PvPqnda
    * Adds feature-packed security cameras into the game!
 
    * Craft security cameras by dropping any same number of iron ingots, glass panes,
-      and redstone torches on the ground!
+      and redstone torches on the ground!<br>
+      <img class="figure-img img-fluid rounded" src="/img/datapacks/security-cameras/extras/crafting.gif">
 
    * Placing a security camera underneath a block will face it towards you and
       generate a number ID linked to the camera which is what you use to view the
@@ -28,7 +29,8 @@ Created by: PvPqnda
 
    * Once a camera is placed, it will automatically start rotating in a 90 degree
       window centered around its rotation when you initially place it.<br>
-     To toggle a camera's automatic rotation, type: "/trigger ToggleRotation"
+     To toggle a camera's automatic rotation, type: "/trigger ToggleRotation"<br>
+      <img class="figure-img img-fluid rounded" src="/img/datapacks/security-cameras/extras/placing.gif">
 
    * To list the IDs of all existing cameras you've placed, type: "/trigger Cameras"!
       Listing your cameras will number them in the order you've placed them, display
@@ -44,10 +46,12 @@ Created by: PvPqnda
       "/trigger Camera set ?" replacing the "?" with the number camera you've placed
       that you'd like to enter. E.g. Running "/trigger Camera set 3" will cause you
       to enter the 3rd camera you've placed, being the 3rd camera on your camera ID
-      list in "/trigger Cameras"
+      list in "/trigger Cameras"<br>
+      <img class="figure-img img-fluid rounded" src="/img/datapacks/security-cameras/extras/entering.gif">
 
    * Cameras have a red light on the front that blinks if the camera is in use!<br>
-     *(Blinking conditions can be customized)*
+     *(Blinking conditions can be customized)*<br>
+      <img class="figure-img img-fluid rounded" src="/img/datapacks/security-cameras/extras/blinking.gif">
 
    * Anyone is able to enter any of their cameras from any location and dimension,
       and exiting will return them back to their previous position and gamemode!<br>
@@ -65,7 +69,8 @@ Created by: PvPqnda
      Link a camera "portal" to a camera you own, or an unlocked camera another
       player owns, by placing an item frame, framing an item in it, and typing:
       "/trigger LinkPortal set \<Camera ID>"<br>
-      *(Can be toggled in the Admin Info page)*
+      *(Can be toggled in the Admin Info page)*<br>
+      <img class="figure-img img-fluid rounded" src="/img/datapacks/security-cameras/extras/portals.gif">
 
    * All cameras are capable of built-in "Motion Detection" that must be manually
       enabled in each camera by their owners using: "/trigger MotionDetectionOn",
@@ -73,7 +78,8 @@ Created by: PvPqnda
      Camera motion detection alerts camera owners if another player is spotted
       in-frame with a 70 degree FOV, unless the player is in an unlit area.<br>
       *(The low-lighting debuff is bypassed with camera night vision)*<br>
-     *(Camera motion detection can be toggled as a whole in the Admin Info page)*
+     *(Camera motion detection can be toggled as a whole in the Admin Info page)*<br>
+      <img class="figure-img img-fluid rounded" src="/img/datapacks/security-cameras/extras/motion detection.gif">
 
    * Camera "Night Vision" can be applied to each camera by their owners by inserting
       golden carrots into the camera using "/trigger AddNightVision set ?" replacing
@@ -83,7 +89,8 @@ Created by: PvPqnda
      The golden carrot requirement can be toggled in the Admin Info page, allowing
       all cameras to have night vision enabled by their owners using
       "/trigger Toggle NV"<br>
-     *(Camera night vision can be toggled as a whole in the Admin Info page)*
+     *(Camera night vision can be toggled as a whole in the Admin Info page)*<br>
+      <img class="figure-img img-fluid rounded" src="/img/datapacks/security-cameras/extras/night vision.gif">
 
    * Cameras can be given custom names, by right-clicking them with a renamed name
       tag, that are displayed in "/trigger Cameras", when entering/exiting the
