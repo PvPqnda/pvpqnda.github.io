@@ -1,14 +1,14 @@
 ---
 layout: map
 title: "Arrow Fight"
-date: 2023-03-15
+date: 2023-06-12
 permalink: /maps/arrow-fight
 short-description: "Arrow Fight is a PvP minigame with custom unique arrows with special abilities that you use to shoot at the enemy team to win!"
-java: "/downloads/maps/Arrow Fight WORLD v1.2.2.zip"
-java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.2.2 (Unzip).zip"
-java-version: "1.19.3"
+java: "/downloads/maps/Arrow Fight WORLD v1.3.0.zip"
+java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.3.0 (Unzip).zip"
+java-version: "1.20"
 tags: ["PvP Minigame","2+ Players"]
-version: 1.2.2
+version: 1.3.0
 ---
 Created by: PvPqnda & Hielke
 -
@@ -43,10 +43,34 @@ Once all players on their team is dead, the other team wins. However, you are un
 
 <div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
       <div class="card-body">
-<b>v1.2.2</b> - <em>March 15, 2023</em><br>
+<b>v1.3.0</b> - <em>June 12, 2023</em><br>
+<br>
+- Updated to Minecraft 1.20<br>
+- Added Rocket Arrows<br>
+- Added normal arrows<br>
+- Reduced damage inflicted by direct arrow hits by 50%<br>
+- Block Eater Arrows now cost 12 cobblestone for 1<br>
+- Wither Gas Arrows now cost 3 glass bottles for 2, inflict Wither II, and have the correct potion color<br>
+- Zombie Arrows now cost an iron block and 8 emeralds for 1<br>
+- Nether Arrows now sell for 2 per purchase<br>
+- Meteors are now more visible while falling<br>
+- TNT Rain TNT now detonate slightly out-of-sync with each other<br>
+- Nether Arrows now replace logs with polished basalt<br>
+- Villager shops now fall at a normal rate<br>
+- Maps Tulip Town and Desert have been mirrored<br>
+- Maps no longer reset when the game ends<br>
+- Fixed the first round played without using the map selector beforehand always having the same ore generation<br>
+- Fixed Nether Arrows not spawning mobs, and Nether Arrow mobs now only attack the opposing team<br>
+- Fixed Lightning Arrows not activating upon hitting a villager shop<br>
+- Fixed Zombie Arrows summoning twice as many zombies upon hitting an entity than hitting a block<br>
+- Fixed spawnpoints<br>
+- Fixed invisible slimes being visible upon starting a round<br>
+- Custom arrows no longer sometimes display potion effect swirl particles upon firing<br>
+<br>
+<b>v1.2.2</b> - <em>March 15, 2023</em> - Download: <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight WORLD v1.2.2.zip" download>World</a> <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight RESOURCE PACK v1.2.2 (Unzip).zip" download>RP</a><br>
 <br>
 - Fixed Creeper Arrows and Nether Arrows not functioning<br>
-- Nether Arrows now replace water with lava, flowers and crops with fire, grass blocks and dirt paths to crimson nylium, and farmland and red sand with netherrack<br>
+- Nether Arrows now replace water with lava, flowers and crops with fire, grass blocks and dirt paths with crimson nylium, and farmland and red sand with netherrack<br>
 <br>
 <b>v1.2.1</b> - <em>February 20, 2022</em><br>
 <br>
