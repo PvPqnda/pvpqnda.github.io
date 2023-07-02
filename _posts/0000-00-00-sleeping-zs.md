@@ -2,13 +2,13 @@
 layout: datapack
 title: "Sleeping Zs"
 permalink: /datapacks/sleeping-zs
-date: 2022-04-24
+date: 2023-07-02
 short-description: "Want to make Minecraft a little more cartoony? Add Zs to sleeping players!"
 download: "/downloads/datapacks/Sleeping Zs.zip"
 trailer: "https://youtu.be/2ZUksaQUHWA"
 tags: ["Aesthetic"]
 java-version: "1.13+"
-version: 1.0.1
+version: 1.1.0
 ---
 Created by: PvPqnda
 -
@@ -16,7 +16,7 @@ Created by: PvPqnda
 
 **Datapack Features:**
 
-- Holograms saying, "ZzZz" will float up above the heads of sleeping players for a nice display. *(If there is another player nearby)*
+- Holograms saying, "ZzZz" will float up above the heads of sleeping players for a nice display
 
 - To toggle your Zs that float above your head while sleeping in a bed on/off, type "/trigger ToggleZs"
 
@@ -31,6 +31,18 @@ Created by: PvPqnda
 
 <div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
       <div class="card-body">
+<b>v1.1.0</b> - <em>July 2, 2023</em><br>
+<br>
+ZzZz holograms:<br>
+- Are no longer visible through walls in MC 1.19.4+<br>
+- Can only be seen up to 30 blocks away in MC 1.19.4+<br>
+- No longer have a transparent background behind the letters in MC 1.19.4+<br>
+- Will now float above your head while sleeping even if there isn't another player nearby<br>
+- Can now rotate on different axis depending on what direction the sleeping player entered the bed from<br>
+<br>
+- Spectators are no longer able to use the toggle trigger<br>
+- Performance improvements<br>
+<br>
 <b>v1.0.1</b> - <em>April 24, 2022</em><br>
 <br>
 - Added support for Minecraft 1.13 (Previously 1.14+)<br>
