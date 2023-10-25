@@ -5,8 +5,8 @@ date: 2023-10-22
 permalink: /maps/arrow-fight
 short-description: "Arrow Fight is a PvP minigame with custom unique arrows with special abilities that you use to shoot at the enemy team to win!"
 java: "/downloads/maps/Arrow Fight WORLD v1.3.1.zip"
-java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.3.1 (Unzip).zip"
-java-version: "1.20.3"
+java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.3.1.zip"
+java-version: "1.20.2"
 tags: ["PvP Minigame","2+ Players"]
 version: 1.3.1
 ---
@@ -45,7 +45,7 @@ Once all players on their team is dead, the other team wins. However, you are un
       <div class="card-body">
 <b>v1.3.1</b> - <em>October 22, 2023</em><br>
 <br>
-- Updated to Minecraft 1.20.3<br>
+- Updated to Minecraft 1.20.2<br>
 <br>
 <b>v1.3.0</b> - <em>June 12, 2023</em> - Download: <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight WORLD v1.3.0.zip" download>World</a> <a style="text-decoration: underline;" href="/downloads/maps/old/Arrow Fight RESOURCE PACK v1.3.0 (Unzip).zip" download>RP</a><br>
 <br>
