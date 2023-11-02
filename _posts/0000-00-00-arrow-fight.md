@@ -1,14 +1,14 @@
 ---
 layout: map
 title: "Arrow Fight"
-date: 2023-10-22
+date: 2023-11-02
 permalink: /maps/arrow-fight
 short-description: "Arrow Fight is a PvP minigame with custom unique arrows with special abilities that you use to shoot at the enemy team to win!"
-java: "/downloads/maps/Arrow Fight WORLD v1.3.1.zip"
-java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.3.1.zip"
+java: "/downloads/maps/Arrow Fight WORLD v1.3.2.zip"
+java-rp: "/downloads/maps/Arrow Fight RESOURCE PACK v1.3.2.zip"
 java-version: "1.20.2"
 tags: ["PvP Minigame","2+ Players"]
-version: 1.3.1
+version: 1.3.2
 ---
 Created by: PvPqnda & Hielke
 -
@@ -43,6 +43,11 @@ Once all players on their team is dead, the other team wins. However, you are un
 
 <div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
       <div class="card-body">
+<b>v1.3.2</b> - <em>November 2, 2023</em><br>
+<br>
+- Fixed Creeper and Nether arrows not functioning<br>
+- Fixed Wither Gas clouds being invisible<br>
+<br>
 <b>v1.3.1</b> - <em>October 22, 2023</em><br>
 <br>
 - Updated to Minecraft 1.20.2<br>
