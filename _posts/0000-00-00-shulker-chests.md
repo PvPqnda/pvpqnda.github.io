@@ -2,13 +2,13 @@
 layout: datapack
 title: "Shulker Chests"
 permalink: /datapacks/shulker-chests
-date: 2022-06-27
+date: 2024-01-24
 short-description: "Want to easily move your chests full of items from one location to another? Now you can."
 download: "/downloads/datapacks/Shulker Chests.zip"
 trailer: "https://youtu.be/JHFn5zKKIMc"
 tags: ["Game Mechanic"]
 java-version: "1.17+"
-version: 2.2.0
+version: 2.2.1
 ---
 Created by: PvPqnda
 -
@@ -49,6 +49,10 @@ Created by: PvPqnda
 
 <div id="changelog" class="collapse" aria-labelledby="changelogBtn" data-parent="#accordion">
       <div class="card-body">
+<b>v2.2.1</b> - <em>January 24, 2024</em><br>
+<br>
+- Fixed Admin Info page not working in MC 1.20.3+<br>
+<br>
 <b>v2.2.0</b> - <em>June 27, 2022</em><br>
 <br>
 - Containers no longer retain other filled containers inside when mined; preventing infinite storage within a single container<br>
