@@ -8,7 +8,7 @@ download: "/downloads/datapacks/old/Security Cameras v1.1.0.zip"
 patreon: "https://www.patreon.com/pvpqnda"
 trailer: "https://youtu.be/ojSIsmHMZVk"
 tags: ["Item"]
-java-version: "1.16+"
+java-version: "1.16"
 version: 2.0.0
 ---
 Created by: PvPqnda
