@@ -7,7 +7,7 @@ short-description: "Hate dealing with combat loggers? Here's the ultimate soluti
 patreon: "https://www.patreon.com/pvpqnda"
 trailer: "https://youtu.be/pZ3T-5nHSXM"
 tags: ["Game Mechanic"]
-java-version: "1.17+"
+java-version: "1.17"
 version: 1.0.0
 ---
 Created by: PvPqnda
